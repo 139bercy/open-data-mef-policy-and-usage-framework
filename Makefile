@@ -17,5 +17,5 @@ major:
 format:
 	mdformat .
 
-export:
-	./bin/to-docx.sh src/main.md
+release:
+	./bin/release.sh src/main.md
