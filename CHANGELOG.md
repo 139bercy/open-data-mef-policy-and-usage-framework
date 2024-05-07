@@ -2,6 +2,17 @@
 
 
 
+## v0.1.1 (2024-05-07)
+
+### Documentation
+
+* docs: update readme file ([`86b537e`](https://github.com/139bercy/data-economie-policies-and-use/commit/86b537ed97dafa122314a3cd82f0d05fe8df1b2f))
+
+### Feature
+
+* feat: add release utils ([`0d4743a`](https://github.com/139bercy/data-economie-policies-and-use/commit/0d4743ae225b34707743673751780f59b1506586))
+
+
 ## v0.1.0 (2024-05-07)
 
 ### Chore
