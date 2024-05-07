@@ -132,9 +132,9 @@ Principes généraux :
 - **Formats standardisés** : Nous privilégierons les formats standardisés et ouverts tels que `CSV`, `JSON`, `XML`,
   `TXT`
 - **Formats ouverts** : Nous chercherons à éviter :
-  1. les formats propriétaires (`docx`, `xlsx`) ;
-  2. le format PDF ;
-  3. les formats compressés (`zip`, `tar.gz`)
+  - les formats propriétaires (`docx`, `xlsx`) ;
+  - le format PDF ;
+  - les formats compressés (`zip`, `tar.gz`)
 - **Normalisation des valeurs** :
   - Les champs date doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`
   - Les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
@@ -142,10 +142,75 @@ Principes généraux :
 
 ### Ouverture des jeux de données
 
+Par sécurité les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
+conséquent responsables de leur ouverture, qui nécessite une action consciente.
+
 Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
 chaîne de dépendance de systèmes d'information tiers.
 
-Les jeux de données de test ne doivent être ouverts qu'à un public restreint en accordant aux personnes habilités les
-droits adaptés, en lecture et / ou en écriture.
+Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un public restreint en accordant aux
+personnes habilitées les droits adaptés, en lecture et / ou en écriture.
 
-N'hésitez pas à solliciter l'aide de l'équipe d'administration.
+N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
+
+### Suppression des jeux de données
+
+**Attention** : La suppression d'un jeu de données public non restreint, c'est-à-dire publié, est une opération
+administrateur.
+
+Un certain nombre de jeux de données sont réutilisés par des systèmes d'information tiers et entrent dans la chaîne
+logistique informationnelle. Une suppression sans étude d'impact peut occasionner une perte d'accès à l'information pour
+les utilisateurs ainsi qu'une interruption dans la continuité des données. Un jeu de données supprimé ainsi que ses
+métadonnées peuvent ne pas être récupérable facilement.
+
+## Gestion des métadonnées
+
+Les métadonnées sont des "données qui fournissent de nouvelles informations sur d'autres données". À ce titre, elles
+permettent de contextualiser un jeu de données : les champs dans lesquels apparaissent des termes métier donnent des
+indications sur le producteur, la fréquence des mises à jour, la licence, etc.
+
+Le module de recherche vectorisée se nourrit des métadonnées pour offrir plus de contexte aux recherches des
+utilisateurs : remplir les métadonnées permet également d'étoffer considérablement l'indexation des jeux de données et
+de renforcer la pertinence du moteur de recherche.
+
+Sur la plateforme data.economie.gouv.fr, ces métadonnées sont à plusieurs endroits :
+
+- Métadonnées des champs d'un document tabulaire, qui apparaissent dans l'onglet `Traitement` du backoffice,
+- Métadonnées standard, admin et DCAT de l'onglet `Informations` du backoffice.
+
+**Attention** : Le remplissage des métadonnées répond aux mêmes critères de concision et de clarté que ceux exprimés
+ci-dessus.
+
+### Métadonnées requises
+
+Les métadonnées à remplir en premier lieu sont :
+
+- **Le titre** : permet aux utilisateurs de comprendre le contenu du jeu de données
+- **La description** : détaille le contenu, les sources et la méthodologie de collecte des données
+- **La licence** : fixe les conditions d'utilisation et de réutilisation des données. Par défaut
+  `Licence Ouverte v2.0 (Etalab`
+- **Le producteur** : indique l'entité ou la personne responsable de la production du jeu de données (voir note
+  ci-dessous)
+- **La date de publication** : renseigne sur la temporalité des données
+- **Les références** : ou tout lien vers des sources externes ou documents connexes utiles.
+
+### Point de contact
+
+La question peut se poser de renseigner l'adresse d'une boîte à lettres fonctionnelle plutôt qu'un email personnel en
+fait d'`email de contact`. Le point de contact personnel a un avantage : il permet de savoir qui est nommément
+responsable d’un jeu de données et savoir précisément à qui s’adresser. Inconvénient : il est rarement mis à jour en cas
+de départ et devient alors obsolète très rapidement. Une BALF est plus anonyme mais aussi plus stable dans le temps.
+
+Sans avoir de doctrine établie, nous pouvons ici faire valoir le bon sens et laisser le choix aux producteurs de
+données, pourvu que le point de contact renseigné soit d'une granularité adaptée, soit directement relié à une personne
+physique responsable de la production et la mise à jour des données, et permette un traitement des demandes le plus
+rapide et le plus efficace possible.
+
+### Suivi du remplissage des métadonnées
+
+Un jeu de données mis à jour à une fréquence bi-hebdomadaire peut vous renseigner sur le taux de remplissage de vos
+métadonnées :
+
+- https://data.economie.gouv.fr/backoffice/catalog/datasets/admin-qualite-des-jeux-de-donnees-publies/#information
+
+Le `quality_score` est indicatif.
