@@ -6,6 +6,16 @@ Cette publication est destinée aux agents du Ministère de l'économie et des f
 maintenance des données ouvertes au sein de leur direction et à ce titre amenés à contribuer à la plateforme
 [data. economie.gouv.fr](https://data.economie.gouv.fr).
 
+## Fonctionnalités
+
+### Générer le document au format docx
+
+**Attention**: Cette fonctionnalité nécessite Pandoc.
+
+```
+$ bin/to-docx.sh src/main.md
+```
+
 ## Contributions
 
 Toute contribution est la bienvenue.
