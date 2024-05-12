@@ -19,7 +19,7 @@ $ make release
 Le fichier est disponible en sortie dans le dossier `build` au format suivant :
 `data-economie-politique-d-usage-<version>-main.docx`
 
-### Générer le document au format PDF
+### Générer le document au format PDF (Beta)
 
 ```
 $ mdpdf -o main.pdf --footer ",,{page}," src/main.md
@@ -40,6 +40,18 @@ Les montées de version restent une tâche à la charge de l'administrateur.
 $ python -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+```
+
+### Pre-commit hooks
+
+Pour garantir un formatage uniforme, un certain nombre de `pre-commits` hooks ont été ajoutés :
+
+- `mdformat` : contrôle du formatage des fichiers _markdown_
+- `commitizen` : contrôle du formatage des commits au format pré-cité
+
+Pour les installer :
+
+```
 $ pre-commit install --install-hooks && pre-commit autoupdate
 ```
 
@@ -50,6 +62,8 @@ dossier `./src`, soit les politiques d'usage de la plateforme.
 
 Les fonctionnalités permettant de générer des documents à des formats divers (`pdf`, `docx`, etc.), autres ajout de code
 de traitement, pré-commits, etc, ne rentrent pas dans ce cadre.
+
+A des fins documentaires, vous trouverez la liste des commandes dans le fichier `Makefile`.
 
 **Attention** : La gestion sémantique de version est une tâche administrateur.
 
