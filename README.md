@@ -43,6 +43,16 @@ $ pip install -r requirements.txt
 $ pre-commit install --install-hooks && pre-commit autoupdate
 ```
 
+### Périmètre de la gestion sémantique de version
+
+Un utilitaire de gestion sémantique de version a été ajouté, qui ne prend pour objet que le contenu textuel dans le
+dossier `./src`, soit les politiques d'usage de la plateforme.
+
+Les fonctionnalités permettant de générer des documents à des formats divers (`pdf`, `docx`, etc.), autres ajout de code
+de traitement, pré-commits, etc, ne rentrent pas dans ce cadre.
+
+**Attention** : La gestion sémantique de version est une tâche administrateur.
+
 ## Contact
 
 - [contact.dataeconomie@finances.gouv.fr](mailto:contact.dataeconomie@finances.gouv.fr)
