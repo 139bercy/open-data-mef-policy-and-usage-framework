@@ -19,6 +19,12 @@ $ make release
 Le fichier est disponible en sortie dans le dossier `build` au format suivant :
 `data-economie-politique-d-usage-<version>-main.docx`
 
+### Générer le document au format PDF
+
+```
+$ mdpdf -o main.pdf --footer ",,{page}," src/main.md
+```
+
 ## Contributions
 
 Toutes les contributions sont les bienvenues, soit en utilisant la boîte de contact renseignée ci-dessous ou en faisant
