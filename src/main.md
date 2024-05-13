@@ -4,14 +4,14 @@
 
 ### Objectif du document
 
-Le présent document vise à établir des directives claires pour la plateforme open data du Ministère des Finances
-data.economie.gouv.fr.
+Le présent document vise à établir des directives claires pour la plateforme Open Data du ministère de l'Économie et des
+Finances [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 L'objectif est de fournir aux producteurs de données des directions un cadre de référence pour la publication, la
 gestion et l'utilisation des jeux de données ministériels.
 
-Ces normes et ces bonnes pratiques ont pour finalité d'offrir à nos réutilisateurs – internes et externes une interface
-cohérente sur nos activités tout en garantissant un certain niveau de qualité.
+Ces normes et ces bonnes pratiques ont pour finalité d'offrir à nos réutilisateurs – internes et externes – une
+interface cohérente sur nos activités tout en garantissant un certain niveau de qualité.
 
 ### Importance de la normalisation
 
@@ -29,8 +29,9 @@ Cet effort de normalisation présente plusieurs avantages :
 
 ### Accès et autorisation
 
-L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents du Ministère
-des Finances habilités, après demande auprès de l'administrateur (contact.dataeconomie@finances.gouv.fr).
+L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents des
+ministères économiques et financiers habilités, après demande auprès de l'administrateur
+(contact.dataeconomie@finances.gouv.fr).
 
 La gestion des identités et des accès est effectuée par les administrateurs de la plateforme, qui attribuent les droits
 appropriés en fonction des responsabilités de chaque utilisateur.
@@ -121,7 +122,7 @@ la plateforme (data.economie.gouv.fr ou data.gouv.fr.
 ### Gestion des sources
 
 La plateforme data.economie.gouv.fr est la plateforme Open Data du ministère de l'Économie et des Finances. À ce titre,
-elle ne doit contenir que des jeux de données produits par le Ministère des Finances.
+elle ne doit contenir que des jeux de données produits par le les ministères économiques et financiers.
 
 **Attention** : La plateforme data.gouv.fr, qui reprend par moissonnage le contenu de la plateforme
 data.economie.gouv.fr ne peut pas être une source de données pour data.economie.gouv.fr.
@@ -185,7 +186,7 @@ Le module de recherche vectorisée se nourrit des métadonnées pour offrir plus
 utilisateurs : remplir les métadonnées permet également d'étoffer considérablement l'indexation des jeux de données et
 de renforcer la pertinence du moteur de recherche.
 
-Sur la plateforme data.economie.gouv.fr, ces métadonnées sont à plusieurs endroits :
+Sur la plateforme ministérielle data.economie.gouv.fr, ces métadonnées sont à plusieurs endroits :
 
 - Métadonnées des champs d'un document tabulaire, qui apparaissent dans l'onglet `Traitement` du backoffice,
 - Métadonnées `standard`, `admin` et `DCAT` de l'onglet `Informations` du backoffice.
