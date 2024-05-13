@@ -2,6 +2,31 @@
 
 
 
+## v0.1.2 (2024-05-13)
+
+### Documentation
+
+* docs: update readme ([`928d376`](https://github.com/139bercy/data-economie-policies-and-use/commit/928d376cd4780b6e9b487b7e747af9b6d457f374))
+
+* docs: update readme with pre-commit hooks ([`3a08791`](https://github.com/139bercy/data-economie-policies-and-use/commit/3a0879187eb0b09bf0034722af58e8d6f858fb29))
+
+* docs: update readme on semantic versioning ([`96b618d`](https://github.com/139bercy/data-economie-policies-and-use/commit/96b618d05880bb8d0ad24d2afe10f1c1caf9d606))
+
+* docs: update readme file ([`86b537e`](https://github.com/139bercy/data-economie-policies-and-use/commit/86b537ed97dafa122314a3cd82f0d05fe8df1b2f))
+
+### Feature
+
+* feat: add generate pdf from markdown utils ([`14806ca`](https://github.com/139bercy/data-economie-policies-and-use/commit/14806cae720ab346aa1ba76bf08b9c8f8c812c0e))
+
+* feat: add release utils ([`0d4743a`](https://github.com/139bercy/data-economie-policies-and-use/commit/0d4743ae225b34707743673751780f59b1506586))
+
+### Fix
+
+* fix: fix typos and page layout in main document ([`0b737db`](https://github.com/139bercy/data-economie-policies-and-use/commit/0b737db1f4685ed46576f0635121d55ddd5101ef))
+
+* fix: fix typos and page layout in main document ([`feb0b38`](https://github.com/139bercy/data-economie-policies-and-use/commit/feb0b384bb79a4d5d602f9247879ff6f8020bc69))
+
+
 ## v0.1.0 (2024-05-07)
 
 ### Chore
