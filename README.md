@@ -13,6 +13,11 @@ fichier ouvert à la syntaxe simple permet d'effectuer l'essentiel des actions d
 léger, permet un contrôle de version tout à fait compatible avec les exigences d'un travail collaboratif et offre une
 portabilité simple vers des formats HTML, PDF ou DOCX.
 
+## Releases
+
+Le document principal est téléchargeable [ici](https://github.com/139bercy/data-economie-policies-and-use/releases) au
+format `DOCX` et [là](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src) au format `Markdown`.
+
 ## Fonctionnalités
 
 ### Générer le document au format docx
