@@ -15,7 +15,7 @@ major:
 ## Files management
 
 format:
-	mdformat .
+	mdformat src
 
 release:
 	./bin/release.sh src/main.md
