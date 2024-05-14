@@ -2,6 +2,23 @@
 
 
 
+## v0.1.3 (2024-05-14)
+
+### Chore
+
+* chore: clean src folder ([`ba617a5`](https://github.com/139bercy/data-economie-policies-and-use/commit/ba617a5b0c7a1adc819d7a5559630d76156e1c0c))
+
+### Documentation
+
+* docs: update readme ([`a47bca1`](https://github.com/139bercy/data-economie-policies-and-use/commit/a47bca1432641370b29bca9e933d3c74ab6bb091))
+
+* docs: add release section to readme ([`fb0763d`](https://github.com/139bercy/data-economie-policies-and-use/commit/fb0763d34e97886fcd0e31d05fe649f167149dce))
+
+### Fix
+
+* fix(main): update structure and content ([`5eda0d7`](https://github.com/139bercy/data-economie-policies-and-use/commit/5eda0d768f9632e532c27d9e4df527de5a68f326))
+
+
 ## v0.1.2 (2024-05-13)
 
 ### Documentation
