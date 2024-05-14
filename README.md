@@ -2,25 +2,45 @@
 
 ## Public
 
-Cette publication est destinée aux agents du Ministère de l'économie et des finances chargés de la publication et de la
+Ce document est destiné aux agents du ministère de l'Économie et des Finances chargés de la publication et de la
 maintenance des données ouvertes au sein de leur direction et à ce titre amenés à contribuer à la plateforme
 [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 ## Choix du format
 
-Les fichiers de travail sont au format [Markdown](https://docs.framasoft.org/fr/grav/markdown.html). Ce format de
-fichier ouvert à la syntaxe simple permet d'effectuer l'essentiel des actions de traitement de texte tout en restant
-léger, permet un contrôle de version tout à fait compatible avec les exigences d'un travail collaboratif et offre une
-portabilité simple vers des formats HTML, PDF ou DOCX.
+Les fichiers de travail sont au format [Markdown](https://docs.framasoft.org/fr/grav/markdown.html).
+
+Ce format de fichier ouvert à la syntaxe simple, permet d'effectuer l'essentiel des actions de traitement de texte tout
+en restant léger et contrôle de version tout à fait compatible avec les exigences d'un travail collaboratif.
+
+Ce format de fichier ouvert, à la syntaxe simple, permet d'effectuer l'essentiel des actions de traitement de texte tout
+en restant léger et compatible avec les systèmes de contrôle de version, ce qui en fait un outil tout à fait compatible
+avec les exigences d'un travail collaboratif.
+
+En outre, sa portabilité permet un export simple vers des formats `HTML`, `PDF` ou `DOCX` ainsi qu'une intégration
+facilitée vers des outils en ligne de gestion documentaire ou un site Web dédié.
 
 ## Releases
 
-Le document principal est téléchargeable [ici](https://github.com/139bercy/data-economie-policies-and-use/releases) au
-format `DOCX` et [là](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src) au format `Markdown`.
+Les fichiers sources sont consultables dans le dossier
+[`src`](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src) et téléchargeables au format `DOCX` au
+lien suivant :
 
-## Fonctionnalités
+- https://github.com/139bercy/data-economie-policies-and-use/releases
+
+## Édition (mode développeur)
+
+### Installation
+
+```
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
 
 ### Générer le document au format docx
+
+La gestion et le formatage des fichiers nécessitent une version Python à jour.
 
 **Attention** : Cette fonctionnalité nécessite Pandoc.
 
@@ -39,14 +59,7 @@ $ mdpdf -o main.pdf --footer ",,{page}," src/main.md
 
 ## Contributions
 
-La gestion et le formatage des fichiers nécessitent une version Python à jour. Les commits suivent la spécification
-[conventional commits](https://www.conventionalcommits.org/fr/v1.0.0/).
-
-```
-$ python -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
-```
+Les commits suivent la spécification [conventional commits](https://www.conventionalcommits.org/fr/v1.0.0/).
 
 **Attention** : Les montées de version restent une tâche à la charge de l'administrateur.
 
