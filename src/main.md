@@ -4,14 +4,14 @@
 
 ### Objectif du document
 
-Le présent document vise à établir des directives claires pour la plateforme Open Data du ministère de l'Économie et des
-Finances [data.economie.gouv.fr](https://data.economie.gouv.fr).
+Le présent document vise à établir des directives d'usage claires pour la plateforme Open Data du ministère de
+l'Économie et des Finances [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 L'objectif est de fournir aux producteurs de données des directions un cadre de référence pour la publication, la
 gestion et l'utilisation des jeux de données ministériels.
 
 Ces normes et ces bonnes pratiques ont pour finalité d'offrir à nos réutilisateurs – internes et externes – une
-interface cohérente sur nos activités tout en garantissant un certain niveau de qualité.
+interface cohérente avec nos activités tout en garantissant un certain niveau de qualité.
 
 ### Importance de la normalisation
 
@@ -29,8 +29,8 @@ Cet effort de normalisation présente plusieurs avantages :
 
 ### Accès et autorisation
 
-L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents des
-ministères économiques et financiers habilités, après demande auprès de l'administrateur
+L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents habilités
+des ministères économiques et financiers, après demande auprès de l'administrateur de la plateforme
 (contact.dataeconomie@finances.gouv.fr).
 
 La gestion des identités et des accès est effectuée par les administrateurs de la plateforme, qui attribuent les droits
@@ -53,15 +53,48 @@ restreint - ne contiennent pas d'informations sensibles ou confidentielles : un 
 moissonné de manière programmatique par plusieurs plateformes, dont la plateforme Open Data
 [data.gouv.fr](https://data.gouv.fr).
 
-### Versionnement des jeux de données
+## Opérations courantes
 
-De manière à assurer la traçabilité et la cohérence des jeux de données, un numéro de version doit être associé à chaque
-jeu de données publié sur la plateforme. A cette fin, nous préconisons en matière de gestion sémantique de version
-l'emploi du standard [SemVer 2.0.0](https://semver.org/lang/fr/) : `<majeure>.<mineure>.<patch>`
+### Modification de l'identifiant technique d'un jeu de données
 
-Les producteurs sont tenus de documenter clairement soit dans un fichier texte en pièce jointe type `CHANGELOG` ou en
-description les modifications apportés à chaque version des jeux de données, y compris les mises à jour, les corrections
-d'erreur et les ajouts de nouvelles données.
+**Attention** : Le changement d'identifiant technique sur [data.economie.gouv.fr](https://data.economie.gouv.fr) est une
+opération administrateur.
+
+Provoquant des effets de bord difficiles à appréhender, cette opération ne doit en aucun cas être réalisée sans l'appui
+d'un administrateur.
+
+### Suppression d'un jeu de données
+
+**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur quelle que soit
+la plateforme (data.economie.gouv.fr ou data.gouv.fr.
+
+- Adresser la demande à l'équipe d'administration qui la traitera dans les plus brefs délais en fournissant les liens
+  pointant vers les jeux de données à supprimer.
+
+Un certain nombre de jeux de données sont réutilisés par des systèmes d'information tiers et entrent dans la chaîne
+logistique informationnelle.
+
+Une suppression sans étude d'impact peut occasionner une perte d'accès à l'information pour les utilisateurs ainsi
+qu'une interruption dans la continuité des données.
+
+Un jeu de données supprimé ainsi que ses métadonnées peuvent ne pas être récupérable facilement.
+
+### Ouverture d'un jeu de données
+
+Par sécurité les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
+conséquent responsables de leur ouverture, qui nécessite une action consciente :
+
+```
+<dataset> > Sécurité > Sécurité par défaut > Accès limité aux utilisateurs et groupes autorisés
+```
+
+Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
+chaîne de dépendance de systèmes d'information tiers.
+
+Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un public restreint en accordant aux
+personnes habilitées les droits adaptés, en lecture et / ou en écriture.
+
+N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
 
 ## Structure des jeux de données
 
@@ -72,31 +105,28 @@ d'erreur et les ajouts de nouvelles données.
 
 Principes généraux :
 
-- **Clarté et concision** : les noms des jeux de données ou des fichiers joints doivent être compréhensibles par un
-  large public : doivent être évités autant que possible les acronymes ou les abréviations obscurs,
-- **Uniformité** : de manière à faciliter l'identification des jeux de données et leur regroupement, une structure de
-  nommage cohérente devra être adoptée pour tous les jeux de données (cf. ci-dessous),
-- **Encodage** : les jeux de données seront encodés au format `utf-8`, un format d'encodage désormais courant compatible
-  ASCII et devenu standard facilitant la compatibilité et les performances,
-- **Mots-clés** : intégrer des mots clefs dans les noms des jeux de données permet d'améliorer leur référencement :
-  qu'ils disent ce qu'ils fassent et qu'ils fassent ce qu'ils disent.
+- **Clarté et concision** : les noms des jeux de données ou des fichiers joints doivent éviter autant que possible les
+  acronymes ou les abréviations obscurs,
 - **Noms** : les noms utilisés pour les jeux de données, les titres, les champs doivent respecter autant que possible un
   vocabulaire commun et demeurer explicites à l'utilisateur non averti
+- **Uniformité** : de manière à faciliter l'identification des jeux de données et leur regroupement, une structure de
+  nommage cohérente devra être adoptée pour tous les jeux de données (cf. ci-dessous),
+- **Encodage** : les jeux de données seront encodés au format `utf-8`, un format désormais courant, compatible ASCII et
+  devenu standard facilitant la compatibilité et les performances,
+- **Mots-clés** : intégrer des mots clefs dans les noms des jeux de données permet d'améliorer leur référencement :
+  qu'ils disent ce qu'ils fassent et qu'ils fassent ce qu'ils disent.
 
 ### Identifiants et noms des jeux de données
 
-**Attention** : Le changement d'identifiant technique sur [data.economie.gouv.fr](https://data.economie.gouv.fr) est une
-opération administrateur.
-
-Par "identifiant", nous entendons "identifiant technique", soit l'identifiant unique d'un jeu de données sur la
-plateforme data.economie.gouv.fr, mais également sur les plateformes qui réutilisent nos jeux de données, comme
-data.gouv.fr.
+Par *identifiant*, nous entendons *identifiant technique*, soit non seulement l'identifiant unique d'un jeu de données
+sur la plateforme data.economie.gouv.fr, mais également sur les plateformes qui réutilisent nos jeux de données par voie
+de moissonnage, comme data.gouv.fr.
 
 - Il doit être défini avant la publication
 - Il ne doit pas être changé après avoir été mis en production
 
-Par "nom", nous entendons la chaîne de caractère identifiant le jeu de données sur la plateforme, soit ce qui est
-affiché à l'utilisateur soit sur la page du jeu de données lui-même, mais également dans le moteur de recherche.
+Par *nom du jeu de données*, nous entendons la chaîne de caractère identifiant le jeu de données sur la plateforme, soit
+ce qui est affiché à l'utilisateur soit sur la page du jeu de données lui-même ou dans le moteur de recherche.
 
 Quelques considérations :
 
@@ -114,10 +144,15 @@ Quelques considérations :
 - Identifiant technique : `test-interne-prix-des-carburants-v2`
 - Nom du jeu de données : `[Test][Interne] Prix des carburants v2`
 
-**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur quelle que soit
-la plateforme (data.economie.gouv.fr ou data.gouv.fr.
+### Versionnement des jeux de données
 
-- Adresser la demande à l'équipe d'administration
+De manière à assurer la traçabilité et la cohérence des jeux de données, un numéro de version doit être associé à chaque
+jeu de données publié sur la plateforme. A cette fin, nous préconisons en matière de gestion sémantique de version
+l'emploi du standard [SemVer 2.0.0](https://semver.org/lang/fr/) : `<majeure>.<mineure>.<patch>`
+
+Les producteurs sont tenus de documenter clairement soit dans un fichier texte en pièce jointe type `CHANGELOG` ou en
+description les modifications apportés à chaque version des jeux de données, y compris les mises à jour, les corrections
+d'erreur et les ajouts de nouvelles données.
 
 ### Gestion des sources
 
@@ -146,37 +181,9 @@ Principes généraux :
   - Les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
     identiques).
 
-### Ouverture des jeux de données
-
-Par sécurité les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
-conséquent responsables de leur ouverture, qui nécessite une action consciente :
-
-```
-<dataset> > Sécurité > Sécurité par défaut > Accès limité aux utilisateurs et groupes autorisés
-```
-
-Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
-chaîne de dépendance de systèmes d'information tiers.
-
-Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un public restreint en accordant aux
-personnes habilitées les droits adaptés, en lecture et / ou en écriture.
-
-N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
-
-### Suppression des jeux de données
-
-**Attention** : La suppression d'un jeu de données public non restreint, c'est-à-dire publié, est une opération
-administrateur.
-
-Un certain nombre de jeux de données sont réutilisés par des systèmes d'information tiers et entrent dans la chaîne
-logistique informationnelle.
-
-Une suppression sans étude d'impact peut occasionner une perte d'accès à l'information pour les utilisateurs ainsi
-qu'une interruption dans la continuité des données.
-
-Un jeu de données supprimé ainsi que ses métadonnées peuvent ne pas être récupérable facilement.
-
 ## Gestion des métadonnées
+
+### Considérations générales
 
 Les métadonnées sont des "données qui fournissent de nouvelles informations sur d'autres données". À ce titre, elles
 permettent de contextualiser un jeu de données : les champs dans lesquels apparaissent des termes métier donnent des
