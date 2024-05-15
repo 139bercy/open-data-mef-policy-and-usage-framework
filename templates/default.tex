@@ -1,0 +1,81 @@
+\documentclass[a4paper]{report}
+\usepackage[fontsize=11pt]{scrextend}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+
+\newcommand{\mybox}[1]{\parbox{\linewidth}{\centering #1}}
+\renewcommand{\contentsname}{Table}
+
+\geometry{
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\normalfont\huge\bfseries}{}{1em}{\mybox}
+\titleformat{\subsection}
+  {\normalfont\Large\bfseries\color{cyan}}{\Roman{subsection}}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\large\bfseries}{\alph{subsubsection})}{0.5em}{}
+
+\titlecontents{section}
+  [0em]
+  {\normalfont\small\bfseries}
+  {}
+  {}
+  {\hfill\contentspage}
+\titlecontents{subsection}
+  [1em]
+  {\normalfont\small\bfseries\color{cyan}}
+  {\thecontentslabel.\ }
+  {}
+  {\hfill\contentspage}
+\titlecontents{subsubsection}
+  [2em]
+  {\normalfont\small\bfseries}
+  {\thecontentslabel.\ }
+  {}
+  {\hfill\contentspage}
+
+% \renewcommand{\thechapter}{\Roman{chapter}}
+% \renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\Roman{subsection}}
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\setlist[itemize]{label=\textbullet, itemsep=0pt, topsep=0pt}
+\setlist[enumerate]{label=\alph*., itemsep=0pt, topsep=0pt}
+
+\XeTeXdefaultencoding utf-8
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Marianne}
+
+\let\tightlist\relax
+
+\begin{document}
+
+$body$
+
+\newpage
+
+\begingroup
+  \hypersetup{hidelinks}
+{\parskip=3pt
+\tableofcontents}
+\endgroup
+
+
+
+\end{document}

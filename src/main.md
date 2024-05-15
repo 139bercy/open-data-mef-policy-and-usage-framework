@@ -55,8 +55,9 @@ Cet effort de normalisation présente plusieurs avantages :
 ### Accès et autorisation
 
 L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents habilités
-des ministères économiques et financiers, après demande auprès de l'administrateur de la plateforme
-(contact.dataeconomie@finances.gouv.fr).
+des ministères économiques et financiers, après demande auprès de l'administrateur de la plateforme :
+
+- (contact.dataeconomie@finances.gouv.fr).
 
 La gestion des identités et des accès est effectuée par les administrateurs de la plateforme, qui attribuent les droits
 appropriés en fonction des responsabilités de chaque utilisateur.
@@ -156,11 +157,13 @@ ce qui est affiché à l'utilisateur soit sur la page du jeu de données lui-mê
 Quelques considérations :
 
 - Préférer le tiret court (1/4 de cadratin) au tiret bas pour les identifiants des jeux de données,
-- Nommer les identifiants techniques des jeux de données en fonction de leur environnement : `test-<dataset_name>` ;
-  `preprod-<dataset_name>`,
+- Nommer les identifiants techniques des jeux de données en fonction de leur environnement :
+  - `test-<dataset_name>` ;
+  - `preprod-<dataset_name>`,
 - Les variables *environnement* à mentionner sont `test`et `preprod`, la production est considérée par défaut,
 - Nommer les identifiants des jeux de données en fonction de leur périmètre de diffusion :
-  `<env>-restreint-<dataset_name>` ; `<env>-interne-<dataset_name>`,
+  - `<env>-restreint-<dataset_name>`;
+  - `<env>-interne-<dataset_name>`,
 - Les noms des jeux de données sont écrits autant que possible en français courant,
 - Les variables *environnement* et périmètre de diffusion sont notées entre crochets dans les jeux de données.
 

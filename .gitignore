@@ -182,3 +182,4 @@ pyrightconfig.json
 ## Output files
 
 build/*.docx
+build/*.pdf

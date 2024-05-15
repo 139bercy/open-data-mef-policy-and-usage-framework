@@ -35,24 +35,24 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-### Générer le document au format docx
+### Exports DOCX et PDF
 
 La gestion et le formatage des fichiers nécessitent une version Python à jour.
 
-**Attention** : Cette fonctionnalité nécessite Pandoc.
+**Attention** : Cette fonctionnalité nécessite :
+
+- [Pandoc](https://pandoc.org/)
+- [tmlgr (LaTeX)](https://tug.org/texlive/tlmgr.html)
+- [Marianne](https://www.systeme-de-design.gouv.fr/elements-d-interface/fondamentaux-de-l-identite-de-l-etat/typographie/)
 
 ```
 $ make release
 ```
 
-Le fichier est disponible en sortie dans le dossier `build` au format suivant :
-`data-economie-politique-d-usage-<version>-main.docx`
+Le fichier est disponible en sortie dans le dossier `build` aux formats suivants :
 
-### Générer le document au format PDF (Beta)
-
-```
-$ mdpdf -o main.pdf --footer ",,{page}," src/main.md
-```
+- `data-economie-politique-d-usage-<version>-main.pdf`
+- `data-economie-politique-d-usage-<version>-main.docx`
 
 ### Générer une table des matières
 
