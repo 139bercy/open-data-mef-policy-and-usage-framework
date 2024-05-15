@@ -1,4 +1,4 @@
-# Politique d'usage de la plateforme data.economie.gouv.fr
+# Politique d'usage de la plateforme Open Data des ministères économiques et financiers `data.economie.gouv.fr`
 
 ## Public
 
@@ -9,9 +9,6 @@ maintenance des données ouvertes au sein de leur direction et à ce titre amen�
 ## Choix du format
 
 Les fichiers de travail sont au format [Markdown](https://docs.framasoft.org/fr/grav/markdown.html).
-
-Ce format de fichier ouvert à la syntaxe simple, permet d'effectuer l'essentiel des actions de traitement de texte tout
-en restant léger et contrôle de version tout à fait compatible avec les exigences d'un travail collaboratif.
 
 Ce format de fichier ouvert, à la syntaxe simple, permet d'effectuer l'essentiel des actions de traitement de texte tout
 en restant léger et compatible avec les systèmes de contrôle de version, ce qui en fait un outil tout à fait compatible
