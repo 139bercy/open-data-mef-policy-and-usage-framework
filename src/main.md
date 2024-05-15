@@ -84,9 +84,7 @@ moissonné de manière programmatique par plusieurs plateformes, dont la platefo
 ### Modification de l'identifiant technique d'un jeu de données
 
 **Attention** : Le changement d'identifiant technique sur [data.economie.gouv.fr](https://data.economie.gouv.fr) est une
-opération administrateur.
-
-Provoquant des effets de bord difficiles à appréhender, cette opération ne doit en aucun cas être réalisée sans l'appui
+opération qui provoque des effets de bord difficiles à appréhender. Elle ne doit en aucun cas être réalisée sans l'appui
 d'un administrateur.
 
 ### Suppression d'un jeu de données

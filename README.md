@@ -6,6 +6,14 @@ Ce document est destiné aux agents du ministère de l'Économie et des Finances
 maintenance des données ouvertes au sein de leur direction et à ce titre amenés à contribuer à la plateforme
 [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
+## Releases
+
+Le document est téléchargeable [ici](https://github.com/139bercy/data-economie-policies-and-use/releases) au format
+`PDF` ainsi qu'au format `DOCX`.
+
+Les fichiers sources sont consultables dans le dossier
+[`src`](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src/main.md).
+
 ## Choix du format
 
 Les fichiers de travail sont au format [Markdown](https://docs.framasoft.org/fr/grav/markdown.html).
@@ -16,14 +24,6 @@ avec les exigences d'un travail collaboratif.
 
 En outre, sa portabilité permet un export simple vers des formats `HTML`, `PDF` ou `DOCX` ainsi qu'une intégration
 facilitée vers des outils en ligne de gestion documentaire ou un site Web dédié.
-
-## Releases
-
-Les fichiers sources sont consultables dans le dossier
-[`src`](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src) et téléchargeables au format `DOCX` au
-lien suivant :
-
-- https://github.com/139bercy/data-economie-policies-and-use/releases
 
 ## Édition (mode développeur)
 
