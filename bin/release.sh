@@ -8,4 +8,4 @@ FILENAME="data-economie-politique-d-usage-${VERSION}-${FILENAME%.*}"
 
 echo Export content to "$FILENAME.$EXTENSION"
 
-pandoc -o "build/$FILENAME".docx -f markdown -t docx "$FILE" --from markdown-yaml_metadata_block --css=style.css --standalone
+pandoc -o "build/$FILENAME".docx -t docx "$FILE" --from markdown-yaml_metadata_block --css=style.css --standalone

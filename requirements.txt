@@ -1,3 +1,4 @@
+markdown-toc==1.2.6
 mdformat-gfm==0.3.6
 mdformat==0.7.17
 mdformat_footnote==0.1.1

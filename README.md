@@ -54,6 +54,12 @@ Le fichier est disponible en sortie dans le dossier `build` au format suivant :
 $ mdpdf -o main.pdf --footer ",,{page}," src/main.md
 ```
 
+### Générer une table des matières
+
+```
+$ make toc
+```
+
 ## Contributions
 
 Les commits suivent la spécification [conventional commits](https://www.conventionalcommits.org/fr/v1.0.0/).

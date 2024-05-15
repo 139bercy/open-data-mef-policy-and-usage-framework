@@ -1,5 +1,30 @@
 # Politique d'usage de la plateforme data.economie.gouv.fr
 
+# Table
+
+- [Introduction](#Introduction)
+  - [Objectif du document](#Objectif-du-document)
+  - [Importance de la normalisation](#Importance-de-la-normalisation)
+- [Politique d'utilisation de la plateforme](#Politique-d'utilisation-de-la-plateforme)
+  - [Accès et autorisation](#Acc%C3%A8s-et-autorisation)
+  - [Responsabilité des producteurs de données](#Responsabilit%C3%A9-des-producteurs-de-donn%C3%A9es)
+- [Opérations courantes](#Op%C3%A9rations-courantes)
+  - [Modification de l'identifiant technique d'un jeu de données](#Modification-de-l'identifiant-technique-d'un-jeu-de-donn%C3%A9es)
+  - [Suppression d'un jeu de données](#Suppression-d'un-jeu-de-donn%C3%A9es)
+  - [Ouverture d'un jeu de données](#Ouverture-d'un-jeu-de-donn%C3%A9es)
+- [Structure des jeux de données](#Structure-des-jeux-de-donn%C3%A9es)
+  - [Conventions de nommage](#Conventions-de-nommage)
+  - [Identifiants et noms des jeux de données](#Identifiants-et-noms-des-jeux-de-donn%C3%A9es)
+  - [Versionnement des jeux de données](#Versionnement-des-jeux-de-donn%C3%A9es)
+  - [Gestion des sources](#Gestion-des-sources)
+- [Format et structure des fichiers de données](#Format-et-structure-des-fichiers-de-donn%C3%A9es)
+- [Gestion des métadonnées](#Gestion-des-m%C3%A9tadonn%C3%A9es)
+  - [Considérations générales](#Consid%C3%A9rations-g%C3%A9n%C3%A9rales)
+  - [Métadonnées requises](#M%C3%A9tadonn%C3%A9es-requises)
+  - [Point de contact](#Point-de-contact)
+- [Monitoring](#Monitoring)
+  - [Suivi du remplissage des métadonnées](#Suivi-du-remplissage-des-m%C3%A9tadonn%C3%A9es)
+
 ## Introduction
 
 ### Objectif du document
@@ -227,6 +252,8 @@ données, pourvu que :
 - le point de contact renseigné soit d'une granularité adaptée,
 - soit directement relié à une personne physique responsable de la production et la mise à jour des données,
 - permette un traitement des demandes des utilisateurs le plus rapide et le plus efficace possible.
+
+## Monitoring
 
 ### Suivi du remplissage des métadonnées
 

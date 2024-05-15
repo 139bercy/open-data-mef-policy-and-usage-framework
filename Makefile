@@ -12,6 +12,11 @@ minor:
 major:
 	semantic-release version --minor --no-push
 
+## Content management
+
+toc:
+	./bin/toc.sh src/main.md
+
 ## Files management
 
 format:
