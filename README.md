@@ -1,12 +1,12 @@
 # Politique d'usage de la plateforme Open Data des ministères économiques et financiers `data.economie.gouv.fr`
 
-## Public
+## Présentation
 
 Ce document est destiné aux agents du ministère de l'Économie et des Finances chargés de la publication et de la
 maintenance des données ouvertes au sein de leur direction et à ce titre amenés à contribuer à la plateforme
 [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
-## Releases
+## Usage
 
 Le document est téléchargeable [ici](https://github.com/139bercy/data-economie-policies-and-use/releases) au format
 `PDF` ainsi qu'au format `DOCX`.
