@@ -60,37 +60,6 @@ Le fichier est disponible en sortie dans le dossier `build` aux formats suivants
 $ make toc
 ```
 
-## Contributions
-
-Les commits suivent la spécification [conventional commits](https://www.conventionalcommits.org/fr/v1.0.0/).
-
-**Attention** : Les montées de version restent une tâche à la charge de l'administrateur.
-
-### Pre-commit hooks
-
-Pour garantir un formatage uniforme, un certain nombre de `pre-commits` hooks ont été ajoutés :
-
-- `mdformat` : contrôle du formatage des fichiers _markdown_
-- `commitizen` : contrôle du formatage des commits au format pré-cité
-
-Pour les installer :
-
-```
-$ pre-commit install --install-hooks && pre-commit autoupdate
-```
-
-### Périmètre de la gestion sémantique de version
-
-Un utilitaire de gestion sémantique de version a été ajouté, qui ne prend pour objet que le contenu textuel dans le
-dossier `./src`, soit les politiques d'usage de la plateforme.
-
-Les fonctionnalités permettant de générer des documents à des formats divers (`pdf`, `docx`, etc.), autres ajout de code
-de traitement, pré-commits, etc, ne rentrent pas dans ce cadre.
-
-À des fins documentaires, vous trouverez la liste des commandes dans le fichier `Makefile`.
-
-**Attention** : La gestion sémantique de version est une tâche administrateur.
-
 ## Contact
 
 - [contact.dataeconomie@finances.gouv.fr](mailto:contact.dataeconomie@finances.gouv.fr)
