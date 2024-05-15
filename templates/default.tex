@@ -10,23 +10,23 @@
 \usepackage{ragged2e}
 \usepackage{xcolor}
 
-\newcommand{\mybox}[1]{\parbox{\linewidth}{\centering #1}}
-\renewcommand{\contentsname}{Table}
+\hypersetup{hidelinks}
 
 \geometry{
- total={170mm,257mm},
- left=20mm,
- top=20mm,
- }
+  total={170mm,257mm},
+  left=20mm,
+  top=20mm,
+}
 
-\setlength{\parskip}{6pt}
-\setlength{\parindent}{0pt}
+\newcommand{\mybox}[1]{\parbox{\linewidth}{\centering #1}}
 
 \definecolor{blue-france-sun-113}{rgb}{0,0,0.569}
 \definecolor{text-default-grey}{rgb}{0.2275,0.2275,0.2275}
 \definecolor{text-title-grey}{rgb}{0.086,0.086,0.086}
 
 \color{text-default-grey}
+
+\renewcommand\contentsname{\LARGE Sommaire}
 
 \titleformat{\section}
   {\normalfont\huge\bfseries\color{text-title-grey}}{}{1em}{\mybox}
@@ -60,6 +60,9 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
 \setlist[itemize]{label=\textbullet, itemsep=0pt, topsep=0pt}
 \setlist[enumerate]{label=\alph*., itemsep=0pt, topsep=0pt}
 
@@ -71,16 +74,21 @@
 
 \begin{document}
 
-$body$
+  \section{$TITLE$}\label{sec:$title$}
 
-\newpage
+  \begin{center}
+    \textbf{$VERSION$}\label{subsec:$version$}
+  \end{center}
 
-\begingroup
-  \hypersetup{hidelinks}
-{\parskip=3pt
-\tableofcontents}
-\endgroup
+  \begingroup
+    \hypersetup{hidelinks}
+    {\parskip=4pt
+    \let\clearpage\relax
+    \tableofcontents}
+  \endgroup
 
+  \newpage
 
+  $body$
 
 \end{document}
