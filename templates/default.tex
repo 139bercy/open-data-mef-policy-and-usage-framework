@@ -1,4 +1,5 @@
 \documentclass[a4paper]{report}
+
 \usepackage[fontsize=11pt]{scrextend}
 \usepackage{fontspec}
 \usepackage{hyperref}
@@ -21,34 +22,38 @@
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
 
+\definecolor{blue-france-sun-113}{rgb}{0,0,0.569}
+\definecolor{text-default-grey}{rgb}{0.2275,0.2275,0.2275}
+\definecolor{text-title-grey}{rgb}{0.086,0.086,0.086}
+
+\color{text-default-grey}
+
 \titleformat{\section}
-  {\normalfont\huge\bfseries}{}{1em}{\mybox}
+  {\normalfont\huge\bfseries\color{text-title-grey}}{}{1em}{\mybox}
 \titleformat{\subsection}
-  {\normalfont\Large\bfseries\color{cyan}}{\Roman{subsection}}{1em}{}
+  {\normalfont\Large\bfseries\color{blue-france-sun-113}}{\Roman{subsection}}{1em}{}
 \titleformat{\subsubsection}
-  {\normalfont\large\bfseries}{\alph{subsubsection})}{0.5em}{}
+  {\normalfont\large\bfseries\color{text-title-grey}}{\alph{subsubsection})}{0.5em}{}
 
 \titlecontents{section}
   [0em]
-  {\normalfont\small\bfseries}
+  {\normalfont\small\bfseries\color{text-title-grey}}
   {}
   {}
   {\hfill\contentspage}
 \titlecontents{subsection}
   [1em]
-  {\normalfont\small\bfseries\color{cyan}}
+  {\normalfont\small\bfseries\color{blue-france-sun-113}}
   {\thecontentslabel.\ }
   {}
   {\hfill\contentspage}
 \titlecontents{subsubsection}
   [2em]
-  {\normalfont\small\bfseries}
+  {\normalfont\small\bfseries\color{text-title-grey}}
   {\thecontentslabel.\ }
   {}
   {\hfill\contentspage}
 
-% \renewcommand{\thechapter}{\Roman{chapter}}
-% \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\Roman{subsection}}
 \renewcommand{\thesubsubsection}{\alph{subsubsection}}
 

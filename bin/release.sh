@@ -6,7 +6,7 @@ EXTENSION="${FILENAME##*.}"
 VERSION=$(git tag --sort=taggerdate | tail -1)
 FILENAME="data-economie-politique-d-usage-${VERSION}-${FILENAME%.*}"
 
-sed '/^# Table$/,/^## Introduction$/{/^## Introduction$/!d;}' src/main.md > temp.md
+sed '/^## Table$/,/^## Introduction$/{/^## Introduction$/!d;}' src/main.md > temp.md
 
 echo Export content to "$FILENAME.docx"
 

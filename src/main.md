@@ -1,6 +1,6 @@
 # Politique d'usage de la plateforme data.economie.gouv.fr
 
-# Table
+## Table
 
 - [Introduction](#Introduction)
   - [Objectif du document](#Objectif-du-document)
@@ -110,9 +110,7 @@ Un jeu de données supprimé ainsi que ses métadonnées peuvent ne pas être r�
 Par sécurité les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
 conséquent responsables de leur ouverture, qui nécessite une action consciente :
 
-```
-<dataset> > Sécurité > Sécurité par défaut > Accès limité aux utilisateurs et groupes autorisés
-```
+> *dataset* -> Sécurité -> Sécurité par défaut -> Accès limité aux utilisateurs et groupes autorisés
 
 Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
 chaîne de dépendance de systèmes d'information tiers.
