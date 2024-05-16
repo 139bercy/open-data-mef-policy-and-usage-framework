@@ -21,7 +21,7 @@ echo Export content to "$FILENAME.pdf"
 pandoc -o "build/$FILENAME".pdf -t pdf -f gfm temp.md \
   --pdf-engine=xelatex \
   --from markdown-yaml_metadata_block \
-  --template templates/default.tex \
+  --template scripts/templates/default.tex \
   --metadata TITLE="$TITLE" \
   --metadata VERSION="$VERSION"
 

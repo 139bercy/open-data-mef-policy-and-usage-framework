@@ -15,7 +15,7 @@ major:
 ## Content management
 
 toc:
-	./bin/toc.sh src/main.md
+	./scripts/toc.sh src/main.md
 
 ## Files management
 
@@ -23,4 +23,4 @@ format:
 	mdformat src
 
 release:
-	./bin/release.sh src/main.md
+	./scripts/release.sh src/main.md
