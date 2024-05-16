@@ -2,6 +2,37 @@
 
 
 
+## v0.1.4 (2024-05-16)
+
+### Chore
+
+* chore: remove bin to scripts and move templates folder ([`dbcd208`](https://github.com/139bercy/data-economie-policies-and-use/commit/dbcd208c5b9b7bae95f55e3fd26b6c01f13b238d))
+
+### Documentation
+
+* docs: update readme ([`37f4f95`](https://github.com/139bercy/data-economie-policies-and-use/commit/37f4f95edf37c3ea6b85cb7ba48fba381de3ff9e))
+
+* docs: add contributing file ([`5e3ba46`](https://github.com/139bercy/data-economie-policies-and-use/commit/5e3ba46c3b41d6f108d92ef3a4c5a14f43a597b4))
+
+* docs: update readme ([`807fa24`](https://github.com/139bercy/data-economie-policies-and-use/commit/807fa24c1bae4559f506dad2b024deb640a42470))
+
+* docs: update readme ([`d116a79`](https://github.com/139bercy/data-economie-policies-and-use/commit/d116a79317c097d92165022652ae37c14386f89c))
+
+### Feature
+
+* feat: add toc at the beginning of the pdf file ([`8311794`](https://github.com/139bercy/data-economie-policies-and-use/commit/8311794d554315d06e9b6c2af42dc7475e2aed2e))
+
+* feat: add dsfr in latex template ([`f328cbe`](https://github.com/139bercy/data-economie-policies-and-use/commit/f328cbedfbcb5f0dc8f54e91e69cfdf66011e88f))
+
+* feat: add export to pdf ([`4f637a0`](https://github.com/139bercy/data-economie-policies-and-use/commit/4f637a0ab26d538123324b20b5297de0b3eb1999))
+
+* feat: add table of contents ([`dffd9cd`](https://github.com/139bercy/data-economie-policies-and-use/commit/dffd9cd2b5d42bd244f73ac2fdf4dcb5415557d9))
+
+### Fix
+
+* fix: fix typos in main document ([`9440fb5`](https://github.com/139bercy/data-economie-policies-and-use/commit/9440fb5d4abccc755b49aa95be29754eff687c96))
+
+
 ## v0.1.3 (2024-05-14)
 
 ### Chore
