@@ -44,6 +44,7 @@ default_bump_level = 0
 [semantic_release.remote]
 name = "origin"
 type = "github"
+token = { env = "DATA_ECO_POLICIES_TOKEN" }
 ignore_token_for_push = false
 insecure = false
 
