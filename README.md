@@ -60,6 +60,10 @@ Le fichier est disponible en sortie dans le dossier `build` aux formats suivants
 $ make toc
 ```
 
+## Contribuer
+
+Se reporter à la documentation sise dans le dossier `.github` à la racine du dépôt.
+
 ## Contact
 
 - [contact.dataeconomie@finances.gouv.fr](mailto:contact.dataeconomie@finances.gouv.fr)

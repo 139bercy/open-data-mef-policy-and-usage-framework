@@ -4,9 +4,9 @@ Tout d'abord, merci de prendre de votre temps pour contribuer !
 
 Toutes les contributions sont bienvenues :
 
-- Ajoutez une étoile au projet
-- Parlez-en autour de vous
-- Faites référence au projet dans vos propres travaux
+- Ajoutez une étoile au projet,
+- Parlez-en autour de vous,
+- Faites référence au projet dans vos propres travaux.
 
 ## J'ai une question
 
@@ -16,12 +16,9 @@ Si vous ne trouvez pas ce que vous cherchez :
 
 - Vérifiez que vous utilisez une version à jour,
 - Vérifiez qu'une [issue](https://github.com/139bercy/data-economie-policies-and-use/issues) n'a pas déjà été ouverte
+  sur le sujet
 - Si oui, n'hésitez pas à y ajouter un commentaire,
-- Sinon, ouvrez une [issue](https://github.com/139bercy/data-economie-policies-and-use/issues) ou contactez-nous,
-- Donnez le plus de contexte possible à vos remarques,
-- Utilisez un **titre clair et descriptif** pour l'issue afin d'identifier la suggestion,
-- Fournissez une **description étape par étape de l'amélioration suggérée** aussi détaillée que possible,
-- **Expliquez pourquoi cette amélioration serait utile** pour la plupart des utilisateurs.
+- Si non, ouvrez une [issue](https://github.com/139bercy/data-economie-policies-and-use/issues) ou contactez-nous !
 
 Vous pouvez également signaler les autres projets qui l'ont mieux résolu et qui pourraient servir d'inspiration.
 
@@ -62,3 +59,17 @@ de traitement, pré-commits, etc, ne rentrent pas dans ce cadre.
 À des fins documentaires, vous trouverez la liste des commandes dans le fichier `Makefile`.
 
 **Attention** : La gestion sémantique de version reste une tâche d'administration.
+
+## Pull request
+
+1. Clonez le dépôt et créez une nouvelle branche :
+
+```bash
+   git clone https://github.com/139bercy/data-economie-policies-and-use.git
+   cd data-economie-policies-and-use
+   git checkout -b [nom_de_la_branche]
+```
+
+2. Installez les dépendances :
+
+   \[commande_pour_installer_les_dépendances\]
