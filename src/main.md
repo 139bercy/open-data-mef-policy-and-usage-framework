@@ -231,12 +231,14 @@ ci-dessus.
 Les métadonnées à remplir en premier lieu sont :
 
 - **le titre** : permet aux utilisateurs de comprendre le contenu du jeu de données,
-- **la description** : détaille le contenu, les sources et la méthodologie de collecte des données,
+- **la description** : brève description du contenu et de l’objectif du jeu de données,
+- **la date de publication** : renseigne sur la temporalité des données,
+- **le producteur** : indique l'entité ou la personne responsable de la production du jeu de données (voir note *Point
+  de contact* ci-dessous)
+- **contact** : coordonnées du responsable des données.
 - **la licence** : fixe les conditions d'utilisation et de réutilisation des données. Par défaut
   `Licence Ouverte v2.0 (Etalab)`,
-- **le producteur** : indique l'entité ou la personne responsable de la production du jeu de données (voir note *Point
-  de contact* ci-dessous),
-- **la date de publication** : renseigne sur la temporalité des données,
+- **la description** : détaille le contenu, les sources et la méthodologie de collecte des données,
 - **les références** : ou tout lien vers des sources externes ou documents connexes utiles.
 
 ### Point de contact
