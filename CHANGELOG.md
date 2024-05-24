@@ -2,6 +2,25 @@
 
 
 
+## v0.1.5 (2024-05-24)
+
+### Documentation
+
+* docs: add pull request template ([`d19fd02`](https://github.com/139bercy/data-economie-policies-and-use/commit/d19fd02686fc184dc429ca82534031bf2cf78a7b))
+
+### Feature
+
+* feat: add content on data governance ([`6e3903f`](https://github.com/139bercy/data-economie-policies-and-use/commit/6e3903fa4709c62dd150b551cc7503a0d8aef420))
+
+* feat: add datasheets for datasets to metadata filling ([`402adae`](https://github.com/139bercy/data-economie-policies-and-use/commit/402adae1b750a41176bec130b65d6a57561e5b68))
+
+* feat: update required metadata section ([`2d2c8e0`](https://github.com/139bercy/data-economie-policies-and-use/commit/2d2c8e08930c2cb5cbae4ae811e1f7df84f2706f))
+
+### Fix
+
+* fix: fix script path in makefile ([`0d2a086`](https://github.com/139bercy/data-economie-policies-and-use/commit/0d2a086dc77b12a0830a00521d7fb82876642522))
+
+
 ## v0.1.4 (2024-05-16)
 
 ### Chore
