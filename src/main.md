@@ -5,6 +5,7 @@
 - [Introduction](#Introduction)
   - [Objectif du document](#Objectif-du-document)
   - [Importance de la normalisation](#Importance-de-la-normalisation)
+- [Gouvernance de l'Open Data](#Gouvernance-de-l'Open-Data)
 - [Politique d'utilisation de la plateforme](#Politique-d'utilisation-de-la-plateforme)
   - [Accès et autorisation](#Acc%C3%A8s-et-autorisation)
   - [Responsabilité des producteurs de données](#Responsabilit%C3%A9-des-producteurs-de-donn%C3%A9es)
@@ -20,6 +21,7 @@
 - [Format et structure des fichiers de données](#Format-et-structure-des-fichiers-de-donn%C3%A9es)
 - [Gestion des métadonnées](#Gestion-des-m%C3%A9tadonn%C3%A9es)
   - [Considérations générales](#Consid%C3%A9rations-g%C3%A9n%C3%A9rales)
+  - [Modèle de documentation](#Mod%C3%A8le-de-documentation)
   - [Métadonnées requises](#M%C3%A9tadonn%C3%A9es-requises)
   - [Point de contact](#Point-de-contact)
 - [Monitoring](#Monitoring)
@@ -49,6 +51,25 @@ Cet effort de normalisation présente plusieurs avantages :
   leur utilisation intégrée,
 - **Confiance** : des pratiques transparentes renforcent la confiance des utilisateurs et valorise notre mission de
   service public.
+
+## Gouvernance de l'Open Data
+
+Dans le cadre de la mise en place d'une politique de la donnée voulue comme ambitieuse, La
+[circulaire n°6264/SG](https://www.legifrance.gouv.fr/circulaire/id/45162) publiée le 27 avril 2021 crée un nouveau rôle
+– l'Administrateur ministériel des données, des algorithmes et des codes sources (AMDAC) – chargé de coordonner la
+circulation, l'ouverture et l'exploitation des données publiques, des algorithmes et des codes sources.
+
+Au niveau ministériel, cette politique est coordonnée par l'AMDAC au Bercy Hub (amd@finances.gouv.fr) et cadrée par la
+feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023. La gouvernance
+de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est une mission
+dédiée.
+
+Le rôle d'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des données. Suivant
+la structure des directions, la gouvernance de l'Open Data peut faire l'objet d'une mission dédiée.
+
+N'hésitez pas à mobiliser ces acteurs pour le cadrage, la réalisation ou le suivi de vos projets data lorsque vous
+contactez nos équipes. Nous tiendrons prochainement un annuaire directionnel des référents Open Data à votre
+disposition.
 
 ## Politique d'utilisation de la plateforme
 
@@ -128,7 +149,7 @@ N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
 Principes généraux :
 
 - **Clarté et concision** : les noms des jeux de données ou des fichiers joints doivent éviter autant que possible les
-  acronymes ou les abréviations obscures,
+  acronymes ou les abréviations obscures et ne pas faire plus de 170 signes,
 - **Noms** : les noms utilisés pour les jeux de données, les titres, les champs doivent respecter autant que possible un
   vocabulaire commun et demeurer explicites à l'utilisateur non averti
 - **Uniformité** : de manière à faciliter l'identification des jeux de données et leur regroupement, une structure de
@@ -178,6 +199,12 @@ Les producteurs sont tenus de documenter clairement, soit dans un fichier texte 
 en description, les modifications apportées à chaque version des jeux de données, y compris les mises à jour, les
 corrections d'erreur et les ajouts de nouvelles données.
 
+Outre la gestion sémantique de version, les mises à jour peuvent être horodatées en activant l'option
+`Mettre à jour la date après un traitement des données` dans les informations de chaque jeu de données au chemin suivant
+:
+
+- `Informations > Standard > Informations générales > Afficher la date de modification`
+
 ### Gestion des sources
 
 La plateforme data.economie.gouv.fr est la plateforme Open Data du ministère de l'Économie et des Finances. À ce titre,
@@ -226,11 +253,13 @@ Sur la plateforme ministérielle data.economie.gouv.fr, ces métadonnées, à re
 **Attention** : Le remplissage des métadonnées répond aux mêmes critères de concision et de clarté que ceux décrits
 ci-dessus.
 
-### Métadonnées requises
+### Modèle de documentation
 
 Le modèle de documentation [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010) cadre la rédaction des
 métadonnées en fournissant une liste de questions utiles, sur la création des jeux de données, leur composition, leur
 collecte, les traitements opérés, les modalités de diffusion ou de maintenance.
+
+### Métadonnées requises
 
 Les métadonnées à remplir en premier lieu sont :
 
