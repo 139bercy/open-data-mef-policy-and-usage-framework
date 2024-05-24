@@ -213,9 +213,9 @@ Les métadonnées sont des "données qui fournissent de nouvelles informations s
 permettent de contextualiser un jeu de données : les champs dans lesquels apparaissent des termes métier donnent des
 indications sur le producteur, la fréquence des mises à jour, la licence, etc.
 
-Le module de recherche vectorisée se nourrit des métadonnées pour offrir plus de contexte aux recherches des
-utilisateurs : remplir les métadonnées permet également d'étoffer considérablement l'indexation des jeux de données et
-de renforcer la pertinence du moteur de recherche.
+Le module de recherche (raccourci `Ctrl / Cmd + K`) se nourrit des métadonnées pour offrir plus de contexte aux
+recherches des utilisateurs : remplir les métadonnées permet également d'étoffer considérablement l'indexation des jeux
+de données et de renforcer la pertinence du moteur de recherche.
 
 Sur la plateforme ministérielle data.economie.gouv.fr, ces métadonnées, à remplir pour chaque jeu de donnée, se trouvent
 à plusieurs endroits :
@@ -228,13 +228,17 @@ ci-dessus.
 
 ### Métadonnées requises
 
+Le modèle de documentation [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010) cadre la rédaction des
+métadonnées en fournissant une liste de questions utiles, sur la création des jeux de données, leur composition, leur
+collecte, les traitements opérés, les modalités de diffusion ou de maintenance.
+
 Les métadonnées à remplir en premier lieu sont :
 
 - **le titre** : permet aux utilisateurs de comprendre le contenu du jeu de données,
 - **la description** : brève description du contenu et de l’objectif du jeu de données,
 - **la date de publication** : renseigne sur la temporalité des données,
-- **le producteur** : indique l'entité ou la personne responsable de la production du jeu de données (voir note *Point
-  de contact* ci-dessous)
+- **le producteur** : indique la direction responsable de la production du jeu de données (voir note *Point de contact*
+  ci-dessous)
 - **contact** : coordonnées du responsable des données.
 - **la licence** : fixe les conditions d'utilisation et de réutilisation des données. Par défaut
   `Licence Ouverte v2.0 (Etalab)`,
