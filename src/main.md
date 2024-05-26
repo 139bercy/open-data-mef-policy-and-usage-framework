@@ -59,13 +59,15 @@ Dans le cadre de la mise en place d'une politique de la donnée voulue comme amb
 – l'Administrateur ministériel des données, des algorithmes et des codes sources (AMDAC) – chargé de coordonner la
 circulation, l'ouverture et l'exploitation des données publiques, des algorithmes et des codes sources.
 
-Au niveau ministériel, cette politique est coordonnée par l'AMDAC au Bercy Hub (amd@finances.gouv.fr) et cadrée par la
-feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023. La gouvernance
-de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est une mission
-dédiée.
+Au niveau ministériel, cette politique est coordonnée par l'AMDAC au sein du Bercy Hub (amd@finances.gouv.fr) et cadrée
+par la feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023.
 
-Le rôle d'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des données. Suivant
-la structure des directions, la gouvernance de l'Open Data peut faire l'objet d'une mission dédiée.
+La gouvernance de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) font
+l'objet d'une mission dédiée.
+
+Au sein des directions, l'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des
+données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open Data peut faire l'objet d'une mission
+dédiée.
 
 N'hésitez pas à mobiliser ces acteurs pour le cadrage, la réalisation ou le suivi de vos projets data lorsque vous
 contactez nos équipes. Nous tiendrons prochainement un annuaire directionnel des référents Open Data à votre
