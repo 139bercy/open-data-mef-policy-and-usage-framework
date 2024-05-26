@@ -11,7 +11,10 @@ maintenance des données ouvertes au sein de leur direction et à ce titre amen�
 Le document est téléchargeable [ici](https://github.com/139bercy/data-economie-policies-and-use/releases) au format
 `PDF` ainsi qu'au format `DOCX`.
 
-Les fichiers sources sont consultables dans le dossier
+La version de la `release` en cours est sur la branche `main`, la version de travail en cours de modification est sur la
+branche `develop`.
+
+Les fichiers sources de chaque branche sont consultables dans le dossier
 [`src`](https://github.com/139bercy/data-economie-policies-and-use/tree/main/src/main.md).
 
 ## Choix du format
