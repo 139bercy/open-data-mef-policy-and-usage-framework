@@ -54,7 +54,7 @@ Cet effort de normalisation présente plusieurs avantages :
 
 ## Gouvernance de l'Open Data
 
-Dans le cadre de la mise en place d'une politique de la donnée voulue comme ambitieuse, La
+Dans le cadre de la mise en place d'une politique de la donnée voulue comme ambitieuse, la
 [circulaire n°6264/SG](https://www.legifrance.gouv.fr/circulaire/id/45162) publiée le 27 avril 2021 crée un nouveau rôle
 – l'Administrateur ministériel des données, des algorithmes et des codes sources (AMDAC) – chargé de coordonner la
 circulation, l'ouverture et l'exploitation des données publiques, des algorithmes et des codes sources.
@@ -63,7 +63,7 @@ Au niveau ministériel, cette politique est coordonnée par l'AMDAC au sein du B
 par la feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023.
 
 La gouvernance de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) font
-l'objet d'une mission dédiée.
+au sein des Ministères économiques et financiers l'objet d'une mission dédiée.
 
 Au sein des directions, l'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des
 données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open Data peut faire l'objet d'une mission
