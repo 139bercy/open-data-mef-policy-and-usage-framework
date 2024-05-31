@@ -305,3 +305,15 @@ métadonnées :
 - https://data.economie.gouv.fr/explore/dataset/admin-qualite-des-jeux-de-donnees-publies
 
 Le `quality_score` est indicatif.
+
+______________________________________________________________________
+
+## Ressources
+
+- [Publier un jeu de données](https://userguide.opendatasoft.com/l/fr/category/jrnwp63j97-publier-vos-jeux-de-donnees)
+
+### Métadonnées
+
+- [Datasheets for datasets](https://open.datactivist.coop/docs/datasheets-datasets)
+- \[Remplir les métadonnées\](https://userguide.opendatasoft.
+  com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees)
