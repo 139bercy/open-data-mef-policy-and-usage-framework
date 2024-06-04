@@ -1,7 +1,6 @@
 #!/bin/bash
 
 FILE=$1
-EXTENSION="${FILENAME##*.}"
 BRANCH="$(git symbolic-ref --short -q HEAD)"
 VERSION=$(git tag --sort=taggerdate | tail -1)
 FILENAME="data-economie-politique-d-usage-${VERSION}-${BRANCH}"
