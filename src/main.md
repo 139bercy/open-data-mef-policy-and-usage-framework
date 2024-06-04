@@ -315,5 +315,4 @@ ______________________________________________________________________
 ### Métadonnées
 
 - [Datasheets for datasets](https://open.datactivist.coop/docs/datasheets-datasets)
-- \[Remplir les métadonnées\](https://userguide.opendatasoft.
-  com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees)
+- [Remplir les métadonnées](https://userguide.opendatasoft.com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees)
