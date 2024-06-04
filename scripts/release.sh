@@ -1,10 +1,10 @@
 #!/bin/bash
 
 FILE=$1
-FILENAME=$(basename -- "$FILE")
 EXTENSION="${FILENAME##*.}"
+BRANCH="$(git symbolic-ref --short -q HEAD)"
 VERSION=$(git tag --sort=taggerdate | tail -1)
-FILENAME="data-economie-politique-d-usage-${VERSION}-${FILENAME%.*}"
+FILENAME="data-economie-politique-d-usage-${VERSION}-${BRANCH}"
 TITLE=$(head -n 1 $FILE | sed 's/^# //' )
 
 sed '1,/^\s*## Introduction\s*$/ { /^\s*## Introduction\s*$/!d; }' $FILE > temp.md
