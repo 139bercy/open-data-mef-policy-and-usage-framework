@@ -2,6 +2,31 @@
 
 
 
+## v0.1.6 (2024-06-07)
+
+### Documentation
+
+* docs: update readme ([`c84c286`](https://github.com/139bercy/data-economie-policies-and-use/commit/c84c286debc8b17e89cf33b47eb327f6541cdd12))
+
+### Feature
+
+* feat(scripts): add branch name to release filename ([`4bd27ee`](https://github.com/139bercy/data-economie-policies-and-use/commit/4bd27ee9bf168852121c5b60621bdc214a27135c))
+
+* feat: add resources section to main document ([`931cb58`](https://github.com/139bercy/data-economie-policies-and-use/commit/931cb58fedc19456b89176339c3da28e3162d2d5))
+
+* feat: update open data governance section ([`e029125`](https://github.com/139bercy/data-economie-policies-and-use/commit/e02912524bfc2b44cb2f00a93a9fdcef43bbc536))
+
+### Fix
+
+* fix(main): fix typo in resources ([`6daa70e`](https://github.com/139bercy/data-economie-policies-and-use/commit/6daa70ea28fab0152a0bd6d537faf6647e01051a))
+
+* fix: fix typo in main document ([`9e7d1d5`](https://github.com/139bercy/data-economie-policies-and-use/commit/9e7d1d57581bb6a692e2e4771c7ed89b281829a6))
+
+### Style
+
+* style(scripts): clean code ([`680e617`](https://github.com/139bercy/data-economie-policies-and-use/commit/680e617c3784cd4663901c497e143601096a3aaa))
+
+
 ## v0.1.5 (2024-05-24)
 
 ### Documentation
