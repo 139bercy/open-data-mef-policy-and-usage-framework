@@ -310,9 +310,18 @@ ______________________________________________________________________
 
 ## Ressources
 
+### Documentation technique
+
 - [Publier un jeu de données](https://userguide.opendatasoft.com/l/fr/category/jrnwp63j97-publier-vos-jeux-de-donnees)
 
 ### Métadonnées
 
+- [DCAT](https://doc.data.gouv.fr/moissonnage/dcat/)
 - [Datasheets for datasets](https://open.datactivist.coop/docs/datasheets-datasets)
 - [Remplir les métadonnées](https://userguide.opendatasoft.com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees)
+
+### Acculturation à la donnée
+
+- [Lab Archipel - DATAcculturation](https://youtu.be/_yxlo41dBuA?si=DVxW9M5MsiBNJ8iS) (Vidéo)
+- [Open Data France](https://opendatafrance.fr/les-ressources/)
+- [Datactivist - Blog](https://open.datactivist.coop/docs)
