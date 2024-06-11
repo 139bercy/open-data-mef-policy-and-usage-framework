@@ -54,6 +54,8 @@ Cet effort de normalisation présente plusieurs avantages :
 
 ## Gouvernance de l'Open Data
 
+### Au sein des ministères économiques et financiers
+
 Dans le cadre de la mise en place d'une politique de la donnée voulue comme ambitieuse, la
 [circulaire n°6264/SG](https://www.legifrance.gouv.fr/circulaire/id/45162) publiée le 27 avril 2021 crée un nouveau rôle
 – l'Administrateur ministériel des données, des algorithmes et des codes sources (AMDAC) – chargé de coordonner la
@@ -72,6 +74,25 @@ dédiée.
 N'hésitez pas à mobiliser ces acteurs pour le cadrage, la réalisation ou le suivi de vos projets data lorsque vous
 contactez nos équipes. Nous tiendrons prochainement un annuaire directionnel des référents Open Data à votre
 disposition.
+
+### Articulation entre data.economie.gouv.fr et data.gouv.fr
+
+Le site [data.gouv.fr](https://www.data.gouv.fr/fr/) est le portail national des données publiques ouvertes de
+l'administration.
+
+La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) est la plateforme des données
+ouvertes publiées par les ministères économiques et financiers.
+
+Le portail data.gouv.fr récupère les données de data.economie.gouv.fr quotidiennement par voie de moissonnage, il n'est
+donc pas nécessaire de procéder à des opérations manuelles de publication sur data.gouv.fr.
+
+Le portail data.gouv.fr propose une fonctionnalité de discussion. Les équipes Open Data du Bercy Hub sont notamment
+chargées de ventiler les notifications. Les métiers souhaitant répondre peuvent demander à être rattachés à
+l'organisation MEFSIN sur data.gouv.fr sur demande à \[contact.dataeconomie@finances.gouv.fr\]
+
+**Attention** : Chaque jeu de données publié et en accès public sur la plateforme data.economie.gouv.fr est moissonné et
+rendu accessible sur le portail data.gouv.fr. Il convient donc de ne pas rendre accessible des données de test et / ou
+des données confidentielles.
 
 ## Politique d'utilisation de la plateforme
 
