@@ -2,6 +2,15 @@
 
 
 
+## v0.2.0 (2024-06-12)
+
+### Feature
+
+* feat(main): add content on data governance ([`0d250a3`](https://github.com/139bercy/data-economie-policies-and-use/commit/0d250a3b4122d89241b4853fc55cf82a071e2512))
+
+* feat(main): add resources on open data ([`e4f0353`](https://github.com/139bercy/data-economie-policies-and-use/commit/e4f0353b868e52ca4d4cff3ebfc18d63cb7178d8))
+
+
 ## v0.1.6 (2024-06-07)
 
 ### Documentation
