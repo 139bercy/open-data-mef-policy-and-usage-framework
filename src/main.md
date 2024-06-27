@@ -6,6 +6,8 @@
   - [Objectif du document](#Objectif-du-document)
   - [Importance de la normalisation](#Importance-de-la-normalisation)
 - [Gouvernance de l'Open Data](#Gouvernance-de-l'Open-Data)
+  - [Au sein des ministères économiques et financiers](#Au-sein-des-minist%C3%A8res-%C3%A9conomiques-et-financiers)
+  - [Articulation entre data.economie.gouv.fr et data.gouv.fr](#Articulation-entre-data.economie.gouv.fr-et-data.gouv.fr)
 - [Politique d'utilisation de la plateforme](#Politique-d'utilisation-de-la-plateforme)
   - [Accès et autorisation](#Acc%C3%A8s-et-autorisation)
   - [Responsabilité des producteurs de données](#Responsabilit%C3%A9-des-producteurs-de-donn%C3%A9es)
@@ -13,6 +15,7 @@
   - [Modification de l'identifiant technique d'un jeu de données](#Modification-de-l'identifiant-technique-d'un-jeu-de-donn%C3%A9es)
   - [Suppression d'un jeu de données](#Suppression-d'un-jeu-de-donn%C3%A9es)
   - [Ouverture d'un jeu de données](#Ouverture-d'un-jeu-de-donn%C3%A9es)
+  - [Tester un jeu de données en accès restreint](#Tester-un-jeu-de-donn%C3%A9es-en-acc%C3%A8s-restreint)
 - [Structure des jeux de données](#Structure-des-jeux-de-donn%C3%A9es)
   - [Conventions de nommage](#Conventions-de-nommage)
   - [Identifiants et noms des jeux de données](#Identifiants-et-noms-des-jeux-de-donn%C3%A9es)
@@ -26,6 +29,10 @@
   - [Point de contact](#Point-de-contact)
 - [Monitoring](#Monitoring)
   - [Suivi du remplissage des métadonnées](#Suivi-du-remplissage-des-m%C3%A9tadonn%C3%A9es)
+- [Ressources](#Ressources)
+  - [Documentation technique](#Documentation-technique)
+  - [Métadonnées](#M%C3%A9tadonn%C3%A9es)
+  - [Acculturation à la donnée](#Acculturation-%C3%A0-la-donn%C3%A9e)
 
 ## Introduction
 
@@ -161,6 +168,32 @@ Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un
 personnes habilitées les droits adaptés, en lecture et / ou en écriture.
 
 N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
+
+### Tester un jeu de données en accès restreint
+
+Les jeux de données en accès restreint ne sont accessibles de manière programmatique qu'après authentification. Après
+avoir [généré une clef API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clef au `header`
+de la requête comme ceci :
+
+```
+import os
+
+import requests
+
+KEY = os.environ["KEY"]
+HEADERS = {"Authorization": f"Apikey {KEY}"}
+print(HEADERS)
+DATASET_NAME = "test-my-dataset"
+
+url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
+params = {"where": f"dataset_id='{DATASET_NAME}'", "include_app_metas": True}
+
+response = requests.get(url, headers=HEADERS, params=params)
+print(response.json())
+```
+
+**Attention** : une clef API ne doit jamais être publiée, il reste préférable de passer par des variables
+d'environnement.
 
 ## Structure des jeux de données
 
