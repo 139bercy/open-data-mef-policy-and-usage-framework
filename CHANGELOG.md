@@ -2,6 +2,17 @@
 
 
 
+## v0.2.1 (2024-06-27)
+
+### Chore
+
+* chore: add dev folder to .gitignore file ([`e0d5af9`](https://github.com/139bercy/data-economie-policies-and-use/commit/e0d5af912d160f8357eb1cf831774568f573682b))
+
+### Feature
+
+* feat(main): add test restricted dataset with api key snippet ([`b6c1809`](https://github.com/139bercy/data-economie-policies-and-use/commit/b6c180911bb3c205732e07fc00cd5db66c45caf2))
+
+
 ## v0.2.0 (2024-06-12)
 
 ### Feature
