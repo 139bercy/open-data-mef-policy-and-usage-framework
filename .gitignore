@@ -183,3 +183,4 @@ pyrightconfig.json
 
 build/*.docx
 build/*.pdf
+dev
