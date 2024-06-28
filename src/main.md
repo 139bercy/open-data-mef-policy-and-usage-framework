@@ -38,8 +38,8 @@
 
 ### Objectif du document
 
-Le présent document vise à établir des directives d'usage claires pour la plateforme Open Data du Ministère de
-l'Économie et des Finances, [data.economie.gouv.fr](https://data.economie.gouv.fr).
+Le présent document vise à établir des directives d'usage claires pour la plateforme Open Data du ministère de
+l'économie et des finances, [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 L'objectif est de fournir aux producteurs de données des directions un cadre de référence pour la publication, la
 gestion et l'utilisation des jeux de données ministériels.
@@ -72,7 +72,7 @@ Au niveau ministériel, cette politique est coordonnée par l'AMDAC au sein du B
 par la feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023.
 
 La gouvernance de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) font,
-au sein des Ministères économiques et financiers, l'objet d'une mission dédiée.
+au sein des ministères économiques et financiers, l'objet d'une mission dédiée.
 
 Au sein des directions, l'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des
 données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open Data peut faire l'objet d'une mission
@@ -105,7 +105,7 @@ des données confidentielles.
 ### Accès et autorisation
 
 L'accès à la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) n'est autorisé qu'aux agents habilités
-des Ministères économiques et financiers, après demande auprès de l'administrateur de la plateforme :
+des ministères économiques et financiers, après demande auprès de l'administrateur de la plateforme :
 
 - contact.dataeconomie@finances.gouv.fr
 
@@ -171,7 +171,7 @@ N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
 ### Tester un jeu de données en accès restreint
 
 Les jeux de données en accès restreint ne sont accessibles de manière programmatique qu'après authentification. Après
-avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clef au `header`
+avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clé au `header`
 de la requête comme ceci :
 
 ```
@@ -212,7 +212,7 @@ Principes généraux :
 - **Encodage** : les jeux de données seront encodés au format `utf-8`, un format désormais courant, compatible ASCII et
   devenu un standard facilitant la compatibilité et les performances,
 - **Mots-clés** : intégrer des mots-clés dans les noms des jeux de données permet d'améliorer leur référencement :
-  qu'ils disent ce qu'ils fassent et qu'ils fassent ce qu'ils disent.
+  qu'ils disent ce qu'ils font et qu'ils fassent ce qu'ils disent.
 
 ### Identifiants et noms des jeux de données
 
@@ -262,8 +262,8 @@ Outre la gestion sémantique de version, les mises à jour peuvent être horodat
 
 ### Gestion des sources
 
-La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du Ministère de l'Économie et des Finances. À ce titre,
-elle ne doit contenir que des jeux de données produits par les Ministères économiques et financiers.
+La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du ministère de l'économie et des finances. À ce titre,
+elle ne doit contenir que des jeux de données produits par les ministères économiques et financiers.
 
 **Attention** : La plateforme [data.gouv.fr](https://data.gouv.fr), qui reprend par moissonnage le contenu de la plateforme
 [data.economie.gouv.fr](https://data.economie.gouv.fr), ne peut pas être une source de données pour [data.economie.gouv.fr](https://data.economie.gouv.fr).
