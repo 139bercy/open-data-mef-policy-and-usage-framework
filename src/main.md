@@ -39,7 +39,7 @@
 ### Objectif du document
 
 Le présent document vise à établir des directives d'usage claires pour la plateforme Open Data du ministère de
-l'économie et des finances, [data.economie.gouv.fr](https://data.economie.gouv.fr).
+l'Économie et des Finances, [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 L'objectif est de fournir aux producteurs de données des directions un cadre de référence pour la publication, la
 gestion et l'utilisation des jeux de données ministériels.
@@ -262,7 +262,7 @@ Outre la gestion sémantique de version, les mises à jour peuvent être horodat
 
 ### Gestion des sources
 
-La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du ministère de l'économie et des finances. À ce titre,
+La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du ministère de l'Économie et des Finances. À ce titre,
 elle ne doit contenir que des jeux de données produits par les ministères économiques et financiers.
 
 **Attention** : La plateforme [data.gouv.fr](https://data.gouv.fr), qui reprend par moissonnage le contenu de la plateforme
