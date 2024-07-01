@@ -2,6 +2,19 @@
 
 
 
+## v0.2.2 (2024-07-01)
+
+### Fix
+
+* fix: fix typos in main
+
+* fix: correct documentation
+
+* fix: correct documentation
+
+* fix: last corrections ([`f2c9008`](https://github.com/139bercy/data-economie-policies-and-use/commit/f2c9008740f939a072da23bb71468e38769b9b00))
+
+
 ## v0.2.1 (2024-06-27)
 
 ### Chore
