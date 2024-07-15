@@ -44,8 +44,8 @@ l'Économie et des Finances, [data.economie.gouv.fr](https://data.economie.gouv.
 L'objectif est de fournir aux producteurs de données des directions un cadre de référence pour la publication, la
 gestion et l'utilisation des jeux de données ministériels.
 
-Ces normes et bonnes pratiques ont pour finalité d'offrir à nos réutilisateurs – internes et externes – une
-interface cohérente avec nos activités tout en garantissant un certain niveau de qualité.
+Ces normes et bonnes pratiques ont pour finalité d'offrir à nos réutilisateurs – internes et externes – une interface
+cohérente avec nos activités tout en garantissant un certain niveau de qualité.
 
 ### Importance de la normalisation
 
@@ -71,8 +71,8 @@ circulation, l'ouverture et l'exploitation des données publiques, des algorithm
 Au niveau ministériel, cette politique est coordonnée par l'AMDAC au sein du Bercy Hub (amd@finances.gouv.fr) et cadrée
 par la feuille de route de la donnée 2024-2026, co-construite avec les directions tout au long de l'année 2023.
 
-La gouvernance de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) font,
-au sein des ministères économiques et financiers, l'objet d'une mission dédiée.
+La gouvernance de l'Open Data et la gestion de la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr)
+font, au sein des ministères économiques et financiers, l'objet d'une mission dédiée.
 
 Au sein des directions, l'Administrateur directionnel des données est chargé de la stratégie et de la gouvernance des
 données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open Data peut faire l'objet d'une mission
@@ -90,15 +90,19 @@ l'administration.
 La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) est la plateforme des données
 ouvertes publiées par les ministères économiques et financiers.
 
-Le portail [data.gouv.fr](https://www.data.gouv.fr/fr/) récupère quotidiennement les données de [data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) par voie de moissonnage, rendant ainsi inutile toute opération manuelle de publication sur [data.gouv.fr](https://www.data.gouv.fr/fr/).
+Le portail [data.gouv.fr](https://www.data.gouv.fr/fr/) récupère quotidiennement les données de
+[data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) par voie de moissonnage, rendant ainsi inutile
+toute opération manuelle de publication sur [data.gouv.fr](https://www.data.gouv.fr/fr/).
 
-Le portail [data.gouv.fr](https://www.data.gouv.fr/fr/) propose une fonctionnalité de discussion. Les équipes Open Data du Bercy Hub sont notamment
-chargées de ventiler les notifications. Les métiers souhaitant répondre peuvent demander à être rattachés à
-l'organisation MEFSIN sur [data.gouv.fr](https://www.data.gouv.fr/fr/) sur demande à \[ contact.dataeconomie@finances.gouv.fr \]
+Le portail [data.gouv.fr](https://www.data.gouv.fr/fr/) propose une fonctionnalité de discussion. Les équipes Open Data
+du Bercy Hub sont notamment chargées de ventiler les notifications. Les métiers souhaitant répondre peuvent demander à
+être rattachés à l'organisation MEFSIN sur [data.gouv.fr](https://www.data.gouv.fr/fr/) sur demande à \[
+contact.dataeconomie@finances.gouv.fr \]
 
-**Attention** : Chaque jeu de données publié et en accès public sur la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) est moissonné et
-rendu accessible sur le portail [data.gouv.fr](https://www.data.gouv.fr/fr/). Il convient donc de ne pas rendre accessible des données de test et/ou
-des données confidentielles.
+**Attention** : Chaque jeu de données publié et en accès public sur la plateforme
+[data.economie.gouv.fr](https://data.economie.gouv.fr/pages/accueil/) est moissonné et rendu accessible sur le portail
+[data.gouv.fr](https://www.data.gouv.fr/fr/). Il convient donc de ne pas rendre accessible des données de test et/ou des
+données confidentielles.
 
 ## Politique d'utilisation de la plateforme
 
@@ -139,8 +143,8 @@ d'un administrateur.
 
 ### Suppression d'un jeu de données
 
-**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur, quelle que soit
-la plateforme ([data.economie.gouv.fr](https://data.economie.gouv.fr) ou [data.gouv.fr](https://data.gouv.fr)).
+**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur, quelle que
+soit la plateforme ([data.economie.gouv.fr](https://data.economie.gouv.fr) ou [data.gouv.fr](https://data.gouv.fr)).
 
 Adressez la demande à l'équipe d'administration qui la traitera dans les plus brefs délais, en fournissant les liens
 pointant vers les jeux de données à supprimer.
@@ -171,8 +175,8 @@ N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
 ### Tester un jeu de données en accès restreint
 
 Les jeux de données en accès restreint ne sont accessibles de manière programmatique qu'après authentification. Après
-avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clé au `header`
-de la requête comme ceci :
+avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clé au `header` de
+la requête comme ceci :
 
 ```
 import os
@@ -205,8 +209,8 @@ Principes généraux :
 
 - **Clarté et concision** : les noms des jeux de données ou des fichiers joints doivent éviter autant que possible les
   acronymes ou les abréviations obscures et ne pas faire plus de 170 signes,
-- **Noms** : les noms utilisés pour les jeux de données, les titres et les champs doivent respecter autant que possible un
-  vocabulaire commun et demeurer explicites à l'utilisateur non averti
+- **Noms** : les noms utilisés pour les jeux de données, les titres et les champs doivent respecter autant que possible
+  un vocabulaire commun et demeurer explicites à l'utilisateur non averti
 - **Uniformité** : de manière à faciliter l'identification des jeux de données et leur regroupement, une structure de
   nommage cohérente devra être adoptée pour tous les jeux de données (cf. ci-dessous),
 - **Encodage** : les jeux de données seront encodés au format `utf-8`, un format désormais courant, compatible ASCII et
@@ -217,8 +221,8 @@ Principes généraux :
 ### Identifiants et noms des jeux de données
 
 Par *identifiant*, nous entendons *identifiant technique*, soit non seulement l'identifiant unique d'un jeu de données
-sur la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), mais également sur les plateformes qui réutilisent nos jeux de données par voie
-de moissonnage, comme [data.gouv.fr](https://data.gouv.fr).
+sur la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), mais également sur les plateformes qui
+réutilisent nos jeux de données par voie de moissonnage, comme [data.gouv.fr](https://data.gouv.fr).
 
 - il doit être défini avant la publication,
 - il ne doit pas être changé après avoir été mis en production.
@@ -262,11 +266,13 @@ Outre la gestion sémantique de version, les mises à jour peuvent être horodat
 
 ### Gestion des sources
 
-La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du ministère de l'Économie et des Finances. À ce titre,
-elle ne doit contenir que des jeux de données produits par les ministères économiques et financiers.
+La plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr) est la plateforme Open Data du ministère de
+l'Économie et des Finances. À ce titre, elle ne doit contenir que des jeux de données produits par les ministères
+économiques et financiers.
 
-**Attention** : La plateforme [data.gouv.fr](https://data.gouv.fr), qui reprend par moissonnage le contenu de la plateforme
-[data.economie.gouv.fr](https://data.economie.gouv.fr), ne peut pas être une source de données pour [data.economie.gouv.fr](https://data.economie.gouv.fr).
+**Attention** : La plateforme [data.gouv.fr](https://data.gouv.fr), qui reprend par moissonnage le contenu de la
+plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), ne peut pas être une source de données pour
+[data.economie.gouv.fr](https://data.economie.gouv.fr).
 
 ## Format et structure des fichiers de données
 
@@ -299,8 +305,8 @@ Le module de recherche (raccourci `Ctrl / Cmd + K`) se nourrit des métadonnées
 recherches des utilisateurs. Remplir les métadonnées permet également d'étoffer considérablement l'indexation des jeux
 de données et de renforcer la pertinence du moteur de recherche.
 
-Sur la plateforme ministérielle [data.economie.gouv.fr](https://data.economie.gouv.fr), ces métadonnées, à remplir pour chaque jeu de données, se trouvent
-à plusieurs endroits :
+Sur la plateforme ministérielle [data.economie.gouv.fr](https://data.economie.gouv.fr), ces métadonnées, à remplir pour
+chaque jeu de données, se trouvent à plusieurs endroits :
 
 - métadonnées des champs d'un document tabulaire, qui apparaissent dans l'onglet `Traitement` du backoffice,
 - métadonnées `standard`, `admin` et `DCAT` de l'onglet `Informations` du backoffice.
@@ -328,6 +334,12 @@ Les métadonnées à remplir en premier lieu sont :
   `Licence Ouverte v2.0 (Etalab)`,
 - **la description** : détaille le contenu, les sources et la méthodologie de collecte des données,
 - **les références** : ou tout lien vers des sources externes ou documents connexes utiles.
+
+Essentielles à une bonne compréhension du périmètre concerné par le jeu de données, sont à remplir également :
+
+- **la fréquence de mise à jour** : renseigne sur la périodicité des mises à jour (ex : hebdomadaire, mensuelle)
+- **la couverture spatiale** : détermine la zone géographique couverte par le jeu de données (ex : France entière)
+- **la couverture temporelle** : détaille la période temporelle couverte par le jeu de données (ex : 2012-2023)
 
 ### Point de contact
 
