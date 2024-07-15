@@ -226,6 +226,7 @@ sur la plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), mais �
 réutilisent nos jeux de données par voie de moissonnage, comme [data.gouv.fr](https://data.gouv.fr).
 
 - il doit être défini avant la publication,
+- il ne doit pas contenir de notions techniques propres à la plateforme (ex : `copie`, `< nom du jeu de données >0`)
 - il ne doit pas être changé après avoir été mis en production.
 
 Par *nom du jeu de données*, nous entendons la chaîne de caractère identifiant le jeu de données sur la plateforme, soit
