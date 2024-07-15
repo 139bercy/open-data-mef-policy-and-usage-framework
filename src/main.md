@@ -201,6 +201,11 @@ d'environnement.
 
 ## Structure des jeux de données
 
+Certains jeux de données sont publiés annuellement. Si leur schéma ne change pas, il peut être considéré comme une bonne
+pratique de ne constituer qu'un seul jeu de données contenant l'ensemble des données pour plusieurs années en ajoutant
+un champ spécifique pour l'année. Cela facilite considérablement les réutilisations et les comparaisons d'une année sur
+l'autre.
+
 ### Conventions de nommage
 
 > Selon que notre idée est plus ou moins obscure, L’expression la suit, ou moins nette, ou plus pure. Ce que l’on

@@ -9,11 +9,10 @@
 \usepackage{enumitem}
 \usepackage{ragged2e}
 \usepackage{xcolor}
-
-\hypersetup{hidelinks}
-
 \usepackage{setspace}
 \usepackage{etoolbox}
+
+\hypersetup{hidelinks}
 
 \AtBeginEnvironment{quote}{\singlespace\vspace{-\topsep}\fontsize{9pt}{11pt}\selectfont}
 \AtEndEnvironment{quote}{\vspace{-\topsep}\endsinglespace}
@@ -88,9 +87,9 @@
 
   \begingroup
     \hypersetup{hidelinks}
-    {\parskip=4pt
+    {\parskip=3pt
     \let\clearpage\relax
-    \tableofcontents}
+    \tiny\tableofcontents}
   \endgroup
 
   \newpage
