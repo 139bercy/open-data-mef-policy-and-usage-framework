@@ -22,8 +22,10 @@
   - [Versionnement des jeux de données](#Versionnement-des-jeux-de-donn%C3%A9es)
   - [Gestion des sources](#Gestion-des-sources)
 - [Format et structure des fichiers de données](#Format-et-structure-des-fichiers-de-donn%C3%A9es)
+  - [Format des fichiers](#Format-des-fichiers)
+  - [Normalisation des valeurs](#Normalisation-des-valeurs)
+  - [Taille des jeux de données](#Taille-des-jeux-de-donn%C3%A9es)
 - [Gestion des métadonnées](#Gestion-des-m%C3%A9tadonn%C3%A9es)
-  - [Considérations générales](#Consid%C3%A9rations-g%C3%A9n%C3%A9rales)
   - [Modèle de documentation](#Mod%C3%A8le-de-documentation)
   - [Métadonnées requises](#M%C3%A9tadonn%C3%A9es-requises)
   - [Catégories et mots-clés](#Cat%C3%A9gories-et-mots-cl%C3%A9s)
@@ -283,6 +285,8 @@ plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), ne peut pas �
 
 ## Format et structure des fichiers de données
 
+### Format des fichiers
+
 Le format ainsi que la manière avec laquelle un fichier est structuré, ont une forte influence sur son accessibilité, sa
 lisibilité et sa réutilisation.
 
@@ -295,14 +299,25 @@ Principes généraux :
   - les formats propriétaires (`docx`, `xlsx`),
   - le format PDF,
   - les formats compressés (`zip`, `tar.gz`).
-- **Normalisation des valeurs** :
-  - les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`,
-  - les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
-    identiques, etc.).
+
+### Normalisation des valeurs
+
+- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`,
+- les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
+  identiques, etc.).
+
+### Taille des jeux de données
+
+L'indexation de la plateforme est optimisée pour un affichage par lignes. En conséquence, elle peut supporter en
+affichage tableau des fichiers faisant plusieurs millions de lignes.
+
+En revanche, le nombre de colonnes est limité à 400 pour un jeu de données. Certaines opérations peuvent être faites par
+Opendatasoft au cas par cas, après demande aux administrateurs de la plateforme.
+
+De manière générale, il n'est pas recommandé de mettre en production des fichiers ayant un nombre trop important de
+colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement.
 
 ## Gestion des métadonnées
-
-### Considérations générales
 
 Les métadonnées sont des "données qui fournissent de nouvelles informations sur d'autres données". À ce titre, elles
 permettent de contextualiser un jeu de données : les champs dans lesquels apparaissent des termes métier donnent des

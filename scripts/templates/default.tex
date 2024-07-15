@@ -1,6 +1,7 @@
 \documentclass[a4paper]{report}
 
 \usepackage[fontsize=11pt]{scrextend}
+\usepackage{tocloft}
 \usepackage{fontspec}
 \usepackage{hyperref}
 \usepackage{geometry}
@@ -67,6 +68,8 @@
 
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
+\setlength{\cftbeforetoctitleskip}{20pt}
+\setlength{\cftaftertoctitleskip}{20pt}
 
 \setlist[itemize]{label=\textbullet, itemsep=0pt, topsep=0pt}
 \setlist[enumerate]{label=\alph*., itemsep=0pt, topsep=0pt}
@@ -87,9 +90,7 @@
 
   \begingroup
     \hypersetup{hidelinks}
-    {\parskip=3pt
-    \let\clearpage\relax
-    \tiny\tableofcontents}
+    \tableofcontents
   \endgroup
 
   \newpage
