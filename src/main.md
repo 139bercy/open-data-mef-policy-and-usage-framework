@@ -26,6 +26,7 @@
   - [Considérations générales](#Consid%C3%A9rations-g%C3%A9n%C3%A9rales)
   - [Modèle de documentation](#Mod%C3%A8le-de-documentation)
   - [Métadonnées requises](#M%C3%A9tadonn%C3%A9es-requises)
+  - [Catégories et mots-clés](#Cat%C3%A9gories-et-mots-cl%C3%A9s)
   - [Point de contact](#Point-de-contact)
 - [Monitoring](#Monitoring)
   - [Suivi du remplissage des métadonnées](#Suivi-du-remplissage-des-m%C3%A9tadonn%C3%A9es)
@@ -322,24 +323,44 @@ collecte, les traitements opérés, ainsi que les modalités de diffusion ou de 
 
 ### Métadonnées requises
 
-Les métadonnées à remplir en premier lieu sont :
+Les métadonnées à remplir en premier lieu sont les suivantes.
+
+**Métadonnées descriptives**
 
 - **le titre** : permet aux utilisateurs de comprendre le contenu du jeu de données,
 - **la description** : brève description du contenu et de l’objectif du jeu de données,
-- **la date de publication** : renseigne sur la temporalité des données,
 - **le producteur** : indique la direction responsable de la production du jeu de données (voir note *Point de contact*
   ci-dessous),
 - **contact** : coordonnées du responsable des données.
+- **les mots-clés** : voir encadré ci-dessous
+
+**Métadonnées d'administation**
+
+- **la date de publication** : renseigne sur la temporalité des données,
 - **la licence** : fixe les conditions d'utilisation et de réutilisation des données. Par défaut
   `Licence Ouverte v2.0 (Etalab)`,
-- **la description** : détaille le contenu, les sources et la méthodologie de collecte des données,
+- **la date de mise à jour** : elle peut être réglée automatiquement à la mise à jour des données ou des métadonnées,
 - **les références** : ou tout lien vers des sources externes ou documents connexes utiles.
 
-Essentielles à une bonne compréhension du périmètre concerné par le jeu de données, sont à remplir également :
+**Géospatiales et temporelles**
 
 - **la fréquence de mise à jour** : renseigne sur la périodicité des mises à jour (ex : hebdomadaire, mensuelle)
 - **la couverture spatiale** : détermine la zone géographique couverte par le jeu de données (ex : France entière)
 - **la couverture temporelle** : détaille la période temporelle couverte par le jeu de données (ex : 2012-2023)
+
+### Catégories et mots-clés
+
+Les mots-clés permettent d'optimiser les recherches faites sur la plateforme ou le référencement des jeux de données sur
+les moteurs de recherche en donnant des éléments de contexte supplémentaires. Les experts SEO recommandent d'ajouter aux
+pages entre 1 et 5 mots clefs.
+
+Un bon mot-clé doit être recherché par les internautes et ne doit pas être trop concurrentiel.
+
+Déterminez le sujet principal du jeu de données, le service qu'il peut offrir, sa thématique ou encore une question qui
+pourrait être facilement posée par son audience cible. Identifiez ensuite les mot-clefs les plus pertinents.
+
+Des outils comme [KeywordTool](https://keywordtool.io/fr) peuvent être utilisés pour faire les premières analyses
+sémantiques.
 
 ### Point de contact
 

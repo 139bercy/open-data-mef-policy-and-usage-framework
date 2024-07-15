@@ -12,6 +12,12 @@
 
 \hypersetup{hidelinks}
 
+\usepackage{setspace}
+\usepackage{etoolbox}
+
+\AtBeginEnvironment{quote}{\singlespace\vspace{-\topsep}\fontsize{9pt}{11pt}\selectfont}
+\AtEndEnvironment{quote}{\vspace{-\topsep}\endsinglespace}
+
 \geometry{
   total={170mm,257mm},
   left=20mm,
