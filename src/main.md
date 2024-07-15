@@ -17,6 +17,7 @@
   - [Ouverture d'un jeu de données](#Ouverture-d'un-jeu-de-donn%C3%A9es)
   - [Tester un jeu de données en accès restreint](#Tester-un-jeu-de-donn%C3%A9es-en-acc%C3%A8s-restreint)
 - [Structure des jeux de données](#Structure-des-jeux-de-donn%C3%A9es)
+  - [Jeux de données millésimés](#Jeux-de-donn%C3%A9es-mill%C3%A9sim%C3%A9s)
   - [Conventions de nommage](#Conventions-de-nommage)
   - [Identifiants et noms des jeux de données](#Identifiants-et-noms-des-jeux-de-donn%C3%A9es)
   - [Versionnement des jeux de données](#Versionnement-des-jeux-de-donn%C3%A9es)
@@ -203,10 +204,21 @@ d'environnement.
 
 ## Structure des jeux de données
 
-Certains jeux de données sont publiés annuellement. Si leur schéma ne change pas, il peut être considéré comme une bonne
-pratique de ne constituer qu'un seul jeu de données contenant l'ensemble des données pour plusieurs années en ajoutant
-un champ spécifique pour l'année. Cela facilite considérablement les réutilisations et les comparaisons d'une année sur
-l'autre.
+### Jeux de données millésimés
+
+Certains jeux de données sont millésimés et publiés annuellement.
+
+Si leur schéma ne change pas, il reste préférable de ne constituer qu'un seul jeu de données contenant l'ensemble des
+données pour plusieurs années en ajoutant un champ spécifique pour l'année et en documentant les ajouts, Ce qui facilite
+considérablement les réutilisations et les comparaisons d'une année sur l'autre.
+
+Si la structure des fichiers évolue de manière trop importante pour pouvoir envisager de conserver un historique dans un
+seul fichier, alors il est possible de créer un jeu de données par année et de créer sur la plateforme une `page`
+référençant chaque jeu de données et référencée sur chaque jeu de données.
+
+Pour certains fichiers exceptionnellement volumineux (5 Go ou plus), il peut être envisagé de ne garder que `n` années
+d'historique en mettant les années précédentes en pièce jointe du même jeu de données. Cette pratique est contraire aux
+standards, mais conforme à la licence accordée avec Opendatasoft.
 
 ### Conventions de nommage
 
