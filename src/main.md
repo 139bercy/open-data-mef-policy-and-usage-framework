@@ -323,8 +323,9 @@ Principes généraux :
 L'indexation de la plateforme est optimisée pour un affichage par lignes. En conséquence, elle peut supporter en
 affichage tableau des fichiers faisant plusieurs millions de lignes.
 
-En revanche, le nombre de colonnes est limité à 400 pour un jeu de données. Certaines opérations peuvent être faites par
-Opendatasoft au cas par cas, après demande aux administrateurs de la plateforme.
+En revanche, le nombre de colonnes est limité à 500 pour un jeu de données, comme le type de certains champs. Certaines
+opérations peuvent être faites par Opendatasoft au cas par cas, après demande aux administrateurs de la plateforme.
+[Source](https://userguide.opendatasoft.com/l/en/article/dbukdhmk5a-dataset-limits)
 
 De manière générale, il n'est pas recommandé de mettre en production des fichiers ayant un nombre trop important de
 colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement.
