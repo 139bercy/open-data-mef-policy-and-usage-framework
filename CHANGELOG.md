@@ -2,6 +2,27 @@
 
 
 
+## v0.3.0 (2024-07-17)
+
+### Feature
+
+* feat(main): add content on dataset updated annually ([`d639d67`](https://github.com/139bercy/data-economie-policies-and-use/commit/d639d677f993c778bccb2a5bfb6f95cfffebef65))
+
+* feat(main): add content on dataset structure ([`93469d1`](https://github.com/139bercy/data-economie-policies-and-use/commit/93469d1c0a2f18f4c08a8991f08b79803afee26c))
+
+* feat(main): add content in dataset id section ([`3c45654`](https://github.com/139bercy/data-economie-policies-and-use/commit/3c456549df77c8bb69a33a1b5f6ee230758cf96c))
+
+* feat(main): add focus on keywords ([`e1c9fbe`](https://github.com/139bercy/data-economie-policies-and-use/commit/e1c9fbed314e00a8f9616ef205b4d95851e904b7))
+
+* feat(main): add new required metadata ([`a62e0d5`](https://github.com/139bercy/data-economie-policies-and-use/commit/a62e0d513128e3e2a3bdc12935a5e4cc845b7c8f))
+
+### Fix
+
+* fix(main): update dataset fields limits ([`9e06265`](https://github.com/139bercy/data-economie-policies-and-use/commit/9e062655a64f547bab2ace5301038fb7bf8d0452))
+
+* fix(toc): update toc on metadata section ([`a6c72ca`](https://github.com/139bercy/data-economie-policies-and-use/commit/a6c72caa7cf4f9dacecb57e6e9f86d0f068a6467))
+
+
 ## v0.2.2 (2024-07-01)
 
 ### Fix
