@@ -139,6 +139,10 @@ moissonné de manière programmatique par plusieurs plateformes, dont la platefo
 
 ## Format et structure des fichiers de données
 
+**Attention** : Dans les fichiers tabulaires de type `CSV` ou `XLSX`, la première ligne est considérée comme le `header`
+contenant les en-têtes des colonnes. La plupart des erreurs constatées impliquant un header manquant sont dues à un
+formatage inadéquat du fichier source.
+
 ### Format des fichiers
 
 Le format ainsi que la manière avec laquelle un fichier est structuré, ont une forte influence sur son accessibilité, sa
