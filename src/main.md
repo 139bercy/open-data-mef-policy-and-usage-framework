@@ -11,26 +11,26 @@
 - [Politique d'utilisation de la plateforme](#Politique-d'utilisation-de-la-plateforme)
   - [Accès et autorisation](#Acc%C3%A8s-et-autorisation)
   - [Responsabilité des producteurs de données](#Responsabilit%C3%A9-des-producteurs-de-donn%C3%A9es)
-- [Opérations courantes](#Op%C3%A9rations-courantes)
-  - [Modification de l'identifiant technique d'un jeu de données](#Modification-de-l'identifiant-technique-d'un-jeu-de-donn%C3%A9es)
-  - [Suppression d'un jeu de données](#Suppression-d'un-jeu-de-donn%C3%A9es)
-  - [Ouverture d'un jeu de données](#Ouverture-d'un-jeu-de-donn%C3%A9es)
-  - [Tester un jeu de données en accès restreint](#Tester-un-jeu-de-donn%C3%A9es-en-acc%C3%A8s-restreint)
-- [Structure des jeux de données](#Structure-des-jeux-de-donn%C3%A9es)
-  - [Jeux de données millésimés](#Jeux-de-donn%C3%A9es-mill%C3%A9sim%C3%A9s)
-  - [Conventions de nommage](#Conventions-de-nommage)
-  - [Identifiants et noms des jeux de données](#Identifiants-et-noms-des-jeux-de-donn%C3%A9es)
-  - [Versionnement des jeux de données](#Versionnement-des-jeux-de-donn%C3%A9es)
-  - [Gestion des sources](#Gestion-des-sources)
 - [Format et structure des fichiers de données](#Format-et-structure-des-fichiers-de-donn%C3%A9es)
   - [Format des fichiers](#Format-des-fichiers)
   - [Normalisation des valeurs](#Normalisation-des-valeurs)
   - [Taille des jeux de données](#Taille-des-jeux-de-donn%C3%A9es)
+- [Structure des jeux de données](#Structure-des-jeux-de-donn%C3%A9es)
+  - [Conventions de nommage](#Conventions-de-nommage)
+  - [Identifiants et noms des jeux de données](#Identifiants-et-noms-des-jeux-de-donn%C3%A9es)
+  - [Versionnement des jeux de données](#Versionnement-des-jeux-de-donn%C3%A9es)
+  - [Gestion des sources](#Gestion-des-sources)
+  - [Jeux de données millésimés](#Jeux-de-donn%C3%A9es-mill%C3%A9sim%C3%A9s)
 - [Gestion des métadonnées](#Gestion-des-m%C3%A9tadonn%C3%A9es)
   - [Modèle de documentation](#Mod%C3%A8le-de-documentation)
   - [Métadonnées requises](#M%C3%A9tadonn%C3%A9es-requises)
   - [Catégories et mots-clés](#Cat%C3%A9gories-et-mots-cl%C3%A9s)
   - [Point de contact](#Point-de-contact)
+- [Opérations courantes](#Op%C3%A9rations-courantes)
+  - [Ouverture d'un jeu de données](#Ouverture-d'un-jeu-de-donn%C3%A9es)
+  - [Modification de l'identifiant technique d'un jeu de données](#Modification-de-l'identifiant-technique-d'un-jeu-de-donn%C3%A9es)
+  - [Suppression d'un jeu de données](#Suppression-d'un-jeu-de-donn%C3%A9es)
+  - [Tester un jeu de données en accès restreint](#Tester-un-jeu-de-donn%C3%A9es-en-acc%C3%A8s-restreint)
 - [Monitoring](#Monitoring)
   - [Suivi du remplissage des métadonnées](#Suivi-du-remplissage-des-m%C3%A9tadonn%C3%A9es)
 - [Ressources](#Ressources)
@@ -137,88 +137,42 @@ restreint - ne contiennent pas d'informations sensibles ou confidentielles : un 
 moissonné de manière programmatique par plusieurs plateformes, dont la plateforme Open Data
 [data.gouv.fr](https://data.gouv.fr).
 
-## Opérations courantes
+## Format et structure des fichiers de données
 
-### Modification de l'identifiant technique d'un jeu de données
+### Format des fichiers
 
-**Attention** : Le changement d'identifiant technique sur [data.economie.gouv.fr](https://data.economie.gouv.fr) est une
-opération qui provoque des effets de bord difficiles à appréhender. Elle ne doit en aucun cas être réalisée sans l'appui
-d'un administrateur.
+Le format ainsi que la manière avec laquelle un fichier est structuré, ont une forte influence sur son accessibilité, sa
+lisibilité et sa réutilisation.
 
-### Suppression d'un jeu de données
+Principes généraux :
 
-**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur, quelle que
-soit la plateforme ([data.economie.gouv.fr](https://data.economie.gouv.fr) ou [data.gouv.fr](https://data.gouv.fr)).
+- **Encodage** : Les fichiers doivent être encodés au format `utf-8`,
+- **Formats standardisés** : Nous privilégierons les formats standardisés et ouverts tels que `CSV`, `JSON`, `XML`,
+  `TXT`,
+- **Formats ouverts** : Nous chercherons à éviter :
+  - les formats propriétaires (`docx`, `xlsx`),
+  - le format PDF,
+  - les formats compressés (`zip`, `tar.gz`).
 
-Adressez la demande à l'équipe d'administration qui la traitera dans les plus brefs délais, en fournissant les liens
-pointant vers les jeux de données à supprimer.
+### Normalisation des valeurs
 
-Un certain nombre de jeux de données sont réutilisés par des systèmes d'information tiers et entrent dans la chaîne
-logistique informationnelle.
+- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`,
+- les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
+  identiques, etc.).
 
-Une suppression sans étude d'impact peut occasionner une perte d'accès à l'information pour les utilisateurs ainsi
-qu'une interruption dans la continuité des données.
+### Taille des jeux de données
 
-Un jeu de données supprimé ainsi que ses métadonnées peuvent ne pas être récupérables facilement.
+L'indexation de la plateforme est optimisée pour un affichage par lignes. En conséquence, elle peut supporter en
+affichage tableau des fichiers faisant plusieurs millions de lignes.
 
-### Ouverture d'un jeu de données
+En revanche, le nombre de colonnes est limité à 500 pour un jeu de données, comme le type de certains champs. Certaines
+opérations peuvent être faites par Opendatasoft au cas par cas, après demande aux administrateurs de la plateforme.
+[Source](https://userguide.opendatasoft.com/l/en/article/dbukdhmk5a-dataset-limits)
 
-Par sécurité, les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
-conséquent responsables de leur ouverture, qui nécessite une action consciente :
-
-> *dataset* -> Sécurité -> Sécurité par défaut -> Accès limité aux utilisateurs et groupes autorisés
-
-Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
-chaîne de dépendance de systèmes d'information tiers.
-
-Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un public restreint en accordant aux
-personnes habilitées les droits adaptés, en lecture et/ou en écriture.
-
-N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
-
-### Tester un jeu de données en accès restreint
-
-Les jeux de données en accès restreint ne sont accessibles de manière programmatique qu'après authentification. Après
-avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clé au `header` de
-la requête comme ceci :
-
-```
-import os
-
-import requests
-
-KEY = os.environ["KEY"]
-HEADERS = {"Authorization": f"Apikey {KEY}"}
-print(HEADERS)
-DATASET_NAME = "test-my-dataset"
-
-url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
-params = {"where": f"dataset_id='{DATASET_NAME}'", "include_app_metas": True}
-
-response = requests.get(url, headers=HEADERS, params=params)
-print(response.json())
-```
-
-**Attention** : une clé API ne doit jamais être publiée, il reste préférable de passer par des variables
-d'environnement.
+De manière générale, il n'est pas recommandé de mettre en production des fichiers ayant un nombre trop important de
+colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement.
 
 ## Structure des jeux de données
-
-### Jeux de données millésimés
-
-Certains jeux de données sont millésimés et publiés annuellement.
-
-Si leur schéma ne change pas, il reste préférable de ne constituer qu'un seul jeu de données contenant l'ensemble des
-données pour plusieurs années en ajoutant un champ spécifique pour l'année et en documentant les ajouts, Ce qui facilite
-considérablement les réutilisations et les comparaisons d'une année sur l'autre.
-
-Si la structure des fichiers évolue de manière trop importante pour pouvoir envisager de conserver un historique dans un
-seul fichier, alors il est possible de créer un jeu de données par année et de créer sur la plateforme une `page`
-référençant chaque jeu de données et référencée sur chaque jeu de données.
-
-Pour certains fichiers exceptionnellement volumineux (5 Go ou plus), il peut être envisagé de ne garder que `n` années
-d'historique en mettant les années précédentes en pièce jointe du même jeu de données. Cette pratique est contraire aux
-standards, mais conforme à la licence accordée avec Opendatasoft.
 
 ### Conventions de nommage
 
@@ -295,40 +249,21 @@ l'Économie et des Finances. À ce titre, elle ne doit contenir que des jeux de 
 plateforme [data.economie.gouv.fr](https://data.economie.gouv.fr), ne peut pas être une source de données pour
 [data.economie.gouv.fr](https://data.economie.gouv.fr).
 
-## Format et structure des fichiers de données
+### Jeux de données millésimés
 
-### Format des fichiers
+Certains jeux de données sont millésimés et publiés annuellement.
 
-Le format ainsi que la manière avec laquelle un fichier est structuré, ont une forte influence sur son accessibilité, sa
-lisibilité et sa réutilisation.
+Si leur schéma ne change pas, il reste préférable de ne constituer qu'un seul jeu de données contenant l'ensemble des
+données pour plusieurs années en ajoutant un champ spécifique pour l'année et en documentant les ajouts, Ce qui facilite
+considérablement les réutilisations et les comparaisons d'une année sur l'autre.
 
-Principes généraux :
+Si la structure des fichiers évolue de manière trop importante pour pouvoir envisager de conserver un historique dans un
+seul fichier, alors il est possible de créer un jeu de données par année et de créer sur la plateforme une `page`
+référençant chaque jeu de données et référencée sur chaque jeu de données.
 
-- **Encodage** : Les fichiers doivent être encodés au format `utf-8`,
-- **Formats standardisés** : Nous privilégierons les formats standardisés et ouverts tels que `CSV`, `JSON`, `XML`,
-  `TXT`,
-- **Formats ouverts** : Nous chercherons à éviter :
-  - les formats propriétaires (`docx`, `xlsx`),
-  - le format PDF,
-  - les formats compressés (`zip`, `tar.gz`).
-
-### Normalisation des valeurs
-
-- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`,
-- les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
-  identiques, etc.).
-
-### Taille des jeux de données
-
-L'indexation de la plateforme est optimisée pour un affichage par lignes. En conséquence, elle peut supporter en
-affichage tableau des fichiers faisant plusieurs millions de lignes.
-
-En revanche, le nombre de colonnes est limité à 500 pour un jeu de données, comme le type de certains champs. Certaines
-opérations peuvent être faites par Opendatasoft au cas par cas, après demande aux administrateurs de la plateforme.
-[Source](https://userguide.opendatasoft.com/l/en/article/dbukdhmk5a-dataset-limits)
-
-De manière générale, il n'est pas recommandé de mettre en production des fichiers ayant un nombre trop important de
-colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement.
+Pour certains fichiers exceptionnellement volumineux (5 Go ou plus), il peut être envisagé de ne garder que `n` années
+d'historique en mettant les années précédentes en pièce jointe du même jeu de données. Cette pratique est contraire aux
+standards, mais conforme à la licence accordée avec Opendatasoft.
 
 ## Gestion des métadonnées
 
@@ -414,6 +349,71 @@ données, pourvu que :
 - le point de contact renseigné soit d'une granularité adaptée,
 - soit directement relié à une personne physique responsable de la production et la mise à jour des données,
 - permette un traitement des demandes des utilisateurs le plus rapide et le plus efficace possible.
+
+## Opérations courantes
+
+### Ouverture d'un jeu de données
+
+Par sécurité, les jeux de données publiés sont par défaut en usage restreint. Les producteurs de données sont par
+conséquent responsables de leur ouverture, qui nécessite une action consciente :
+
+> *dataset* -> Sécurité -> Sécurité par défaut -> Accès limité aux utilisateurs et groupes autorisés
+
+Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
+chaîne de dépendance de systèmes d'information tiers.
+
+Les jeux de données de `test` ou de `preprod` ne doivent être ouverts qu'à un public restreint en accordant aux
+personnes habilitées les droits adaptés, en lecture et/ou en écriture.
+
+N'hésitez pas à solliciter l'équipe d'administration à ce sujet.
+
+### Modification de l'identifiant technique d'un jeu de données
+
+**Attention** : Le changement d'identifiant technique sur [data.economie.gouv.fr](https://data.economie.gouv.fr) est une
+opération qui provoque des effets de bord difficiles à appréhender. Elle ne doit en aucun cas être réalisée sans l'appui
+d'un administrateur.
+
+### Suppression d'un jeu de données
+
+**Attention** : La suppression d'un jeu de données public non restreint est une opération administrateur, quelle que
+soit la plateforme ([data.economie.gouv.fr](https://data.economie.gouv.fr) ou [data.gouv.fr](https://data.gouv.fr)).
+
+Adressez la demande à l'équipe d'administration qui la traitera dans les plus brefs délais, en fournissant les liens
+pointant vers les jeux de données à supprimer.
+
+Un certain nombre de jeux de données sont réutilisés par des systèmes d'information tiers et entrent dans la chaîne
+logistique informationnelle.
+
+Une suppression sans étude d'impact peut occasionner une perte d'accès à l'information pour les utilisateurs ainsi
+qu'une interruption dans la continuité des données.
+
+Un jeu de données supprimé ainsi que ses métadonnées peuvent ne pas être récupérables facilement.
+
+### Tester un jeu de données en accès restreint
+
+Les jeux de données en accès restreint ne sont accessibles de manière programmatique qu'après authentification. Après
+avoir [généré une clé API](https://data.economie.gouv.fr/account/api-keys/), vous pouvez intégrer la clé au `header` de
+la requête comme ceci :
+
+```
+import os
+
+import requests
+
+KEY = os.environ["KEY"]
+HEADERS = {"Authorization": f"Apikey {KEY}"}
+print(HEADERS)
+DATASET_NAME = "test-my-dataset"
+
+url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/"
+params = {"where": f"dataset_id='{DATASET_NAME}'", "include_app_metas": True}
+
+response = requests.get(url, headers=HEADERS, params=params)
+print(response.json())
+```
+
+**Attention** : une clé API ne doit jamais être publiée, il reste préférable de passer par des variables
+d'environnement.
 
 ## Monitoring
 
