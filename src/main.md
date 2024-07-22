@@ -31,6 +31,7 @@
   - [Modification de l'identifiant technique d'un jeu de données](#Modification-de-l'identifiant-technique-d'un-jeu-de-donn%C3%A9es)
   - [Suppression d'un jeu de données](#Suppression-d'un-jeu-de-donn%C3%A9es)
   - [Tester un jeu de données en accès restreint](#Tester-un-jeu-de-donn%C3%A9es-en-acc%C3%A8s-restreint)
+  - [Répondre à une discussion](#R%C3%A9pondre-%C3%A0-une-discussion)
 - [Monitoring](#Monitoring)
   - [Suivi du remplissage des métadonnées](#Suivi-du-remplissage-des-m%C3%A9tadonn%C3%A9es)
 - [Ressources](#Ressources)
@@ -418,6 +419,17 @@ print(response.json())
 
 **Attention** : une clé API ne doit jamais être publiée, il reste préférable de passer par des variables
 d'environnement.
+
+### Répondre à une discussion
+
+Comme évoqué plus haut, les deux plateformes [data.gouv.fr](https://data.gouv.fr) comme
+[data.economie.gouv.fr](https;//data.economie.gouv.fr) proposent une fonctionnalité de discussion permettant aux
+réutilisateurs des jeux de données de faire part aux métiers de leurs remarques sur les données, questionnements ou
+encore suggestions de montée en qualité.
+
+Il est recommandé de laisser les utilisateurs passer par cette fonctionnalité et de leur répondre sans donner l'adresse
+de boîtes aux lettres fonctionnelles ou autres boîtes aux lettres personnelles : rester sur un seul canal respecte le
+principe de transparence, favorise le partage de connaissances et la réduction du spam.
 
 ## Monitoring
 
