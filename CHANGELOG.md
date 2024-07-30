@@ -2,6 +2,21 @@
 
 
 
+## v0.3.1 (2024-07-30)
+
+### Feature
+
+* feat(main): add content on contact form thread answers ([`fe0b01a`](https://github.com/139bercy/data-economie-policies-and-use/commit/fe0b01a35ff84718a97a6a67e8c70487881b8704))
+
+* feat(main): add content on emails in public discussions ([`585b704`](https://github.com/139bercy/data-economie-policies-and-use/commit/585b70472ca561bc71d6a96b908d42546f79dbd9))
+
+* feat(main): add content on tabular files headers ([`66b6e6e`](https://github.com/139bercy/data-economie-policies-and-use/commit/66b6e6ec2ea224e8bc0e1670739396ed3e6c2431))
+
+### Fix
+
+* fix(main): update document structure ([`cee1a10`](https://github.com/139bercy/data-economie-policies-and-use/commit/cee1a107717f057caf39e795047d54a568d2e6c3))
+
+
 ## v0.3.0 (2024-07-17)
 
 ### Feature
