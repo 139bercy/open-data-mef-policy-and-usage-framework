@@ -431,6 +431,10 @@ Il est recommandé de laisser les utilisateurs passer par cette fonctionnalité 
 de boîtes aux lettres fonctionnelles ou autres boîtes aux lettres personnelles : rester sur un seul canal respecte le
 principe de transparence, favorise le partage de connaissances et la réduction du spam.
 
+Lorsqu'un message laissé via le formulaire de contact vous est transmis et que vous souhaitez lui répondre directement,
+il est préférable de mettre \[contact.dataeconomie@finances.gouv.fr\] en copie ou de renvoyer le message à transmettre
+avec un commentaire adapté.
+
 ## Monitoring
 
 ### Suivi du remplissage des métadonnées
