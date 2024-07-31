@@ -1,16 +1,16 @@
 ## Semver
 
 version:
-	semantic-release version --no-push
+	semantic-release version
 
 patch:
-	semantic-release version --patch --no-push
+	semantic-release version --patch
 
 minor:
-	semantic-release version --minor --no-push
+	semantic-release version --minor
 
 major:
-	semantic-release version --minor --no-push
+	semantic-release version --major
 
 ## Content management
 
