@@ -84,8 +84,7 @@ données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open
 dédiée.
 
 N'hésitez pas à mobiliser ces acteurs pour le cadrage, la réalisation ou le suivi de vos projets data lorsque vous
-contactez nos équipes. Nous tiendrons prochainement un annuaire directionnel des référents Open Data à votre
-disposition.
+contactez nos équipes. Un annuaire directionnel des référents Open Data sera prochainement mis à votre disposition.
 
 ### Articulation entre data.economie.gouv.fr et data.gouv.fr
 
@@ -124,7 +123,7 @@ appropriés en fonction des responsabilités de chaque utilisateur.
 Ceux-ci sont priés de se conformer aux politiques et procédures de sécurité de l'organisation lors de l'accès à la
 plateforme, notamment :
 
-- les comptes doivent être personnels (pas de boîte à lettre fonctionnelle),
+- les comptes doivent être personnels (pas de boîte à lettres fonctionnelle),
 - les comptes ne doivent pas être partagés entre utilisateurs.
 
 ### Responsabilité des producteurs de données
@@ -326,12 +325,12 @@ Les métadonnées à remplir en premier lieu sont les suivantes.
 
 Les mots-clés permettent d'optimiser les recherches faites sur la plateforme ou le référencement des jeux de données sur
 les moteurs de recherche en donnant des éléments de contexte supplémentaires. Les experts SEO recommandent d'ajouter aux
-pages entre 1 et 5 mots clefs.
+pages entre 1 et 5 mots-clés.
 
 Un bon mot-clé doit être recherché par les internautes et ne doit pas être trop concurrentiel.
 
 Déterminez le sujet principal du jeu de données, le service qu'il peut offrir, sa thématique ou encore une question qui
-pourrait être facilement posée par son audience cible. Identifiez ensuite les mot-clefs les plus pertinents.
+pourrait être facilement posée par son audience cible. Identifiez ensuite les mot-clés les plus pertinents.
 
 Des outils comme [KeywordTool](https://keywordtool.io/fr) peuvent être utilisés pour faire les premières analyses
 sémantiques.
