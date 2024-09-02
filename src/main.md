@@ -330,7 +330,7 @@ pages entre 1 et 5 mots-clés.
 Un bon mot-clé doit être recherché par les internautes et ne doit pas être trop concurrentiel.
 
 Déterminez le sujet principal du jeu de données, le service qu'il peut offrir, sa thématique ou encore une question qui
-pourrait être facilement posée par son audience cible. Identifiez ensuite les mot-clés les plus pertinents.
+pourrait être facilement posée par son audience cible. Identifiez ensuite les mots-clés les plus pertinents.
 
 Des outils comme [KeywordTool](https://keywordtool.io/fr) peuvent être utilisés pour faire les premières analyses
 sémantiques.
