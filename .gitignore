@@ -1,5 +1,7 @@
 # IDE
 
+.DS_Store
+
 *.iml
 .idea
 

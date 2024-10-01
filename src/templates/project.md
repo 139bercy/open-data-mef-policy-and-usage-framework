@@ -1,13 +1,32 @@
-# <direction> - <nom du projet>
+# Direction - Nom du projet
+
+*Ce document émis par le Bercy Hub est une aide au cadrage de projet Open Data. N'hésitez pas à le modifier et l'adapter
+à votre contexte et à nous contacter pour l'enrichir !*
+
+## Révisions
+
+| **Date**   | **Auteur** | **Version** |
+| ---------- | ---------- | ----------- |
+| 2024-01-01 | John Doe   | v0.0.1      |
 
 ## Contexte
+
+_Décrire le contexte administratif spécifique au sein duquel le projet sera développé, les priorités stratégiques_
+_auxquelles il répond, la situation actuelle, les utilisateurs finaux et les prérequis du projet._
 
 ## Matrice des responsabilités
 
 - Responsable
+  - John Doe (*organisation*)
 - Autorité
+  - Jane Smith (*organisation*)
 - Consultés
+  - Richard Roe (*organisation*)
+  - Mary Johnson (*organisation*)
 - Informés
+  - James Miller (*organisation*)
+  - Emily Brown (*organisation*)
+  - David Clark (*organisation*)
 
 ## Projet
 
@@ -26,6 +45,8 @@ sont les personas identifiés ?*
 *Quelles sont les améliorations qui seront apportées par le projet s'il est mené à bien ? Gain de temps ? Partage
 d'information ? Réduction des coûts ? Meilleure prise de décision ?*
 
+Exemples :
+
 - Impact sur les citoyens et la société (meilleur accès à l’information, amélioration des services publics, prise de
   décision transparente)
 - Valeur ajoutée pour l'administration (amélioration de l'efficacité, réduction des coûts, prise de décision éclairée)
@@ -34,13 +55,13 @@ d'information ? Réduction des coûts ? Meilleure prise de décision ?*
 
 ### Objectifs data
 
-*Quel est sont les finalités identifiées pour ce projet (e.g. collecte de données, mise en place d’un système d’analyse,
-visualisation de données pour prise de décision) ?*
+*Quel est sont les finalités identifiées pour ce projet (exemple : collecte de données, mise en place d’un système
+d’analyse, visualisation de données pour prise de décision) ?*
 
 ### Métriques
 
-*Quelles sont les métriques ou KPI qui permettront de mesurer le succès du projet (e.g. réduction des délais, nombre de
-nouveaux insights, meilleure allocation des ressources) ?*
+*Quelles sont les métriques ou KPI qui permettront de mesurer le succès du projet (exemple : réduction des délais,
+nombre de nouveaux insights, meilleure allocation des ressources) ?*
 
 ## Données
 
@@ -76,7 +97,7 @@ pages ? Un portail dédié ?*
 
 ### Utilisateurs finaux
 
-*Qui sont les principaux utilisateurs des résultats du projet (e.g. gestionnaires publics, décideurs, services
+*Qui sont les principaux utilisateurs des résultats du projet (exemple : gestionnaires publics, décideurs, services
 opérationnels) ?*
 
 ### Partenaires clés
