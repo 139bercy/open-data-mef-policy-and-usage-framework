@@ -38,6 +38,13 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
+Ajouter au `.bashrc`:
+
+```
+export PATH=<chemin absolu vers tex live>:"${PATH}"
+export DATA_ECO_POLICIES_TOKEN=<token git>
+```
+
 ### Exports DOCX et PDF
 
 La gestion et le formatage des fichiers nécessitent une version Python à jour.
