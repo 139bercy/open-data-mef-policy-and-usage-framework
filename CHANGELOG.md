@@ -2,6 +2,29 @@
 
 
 
+## v1.0.0 (2024-10-01)
+
+### Chore
+
+* chore: update makefile ([`65fcef0`](https://github.com/139bercy/data-economie-policies-and-use/commit/65fcef0a77dfda93e23b42b0a650865ab05e9248))
+
+### Documentation
+
+* docs: update readme ([`94226e9`](https://github.com/139bercy/data-economie-policies-and-use/commit/94226e92c08db0478b1dca6ad8677b793e5d4e58))
+
+### Feature
+
+* feat(main): update project template ([`4594747`](https://github.com/139bercy/data-economie-policies-and-use/commit/4594747cdf5cc3d05a538d0b51f8000752736bc9))
+
+* feat(main): add content on dataset opening ([`01eff7e`](https://github.com/139bercy/data-economie-policies-and-use/commit/01eff7e61d430aff05b7139af690376203e931e9))
+
+* feat(main): add project template ([`f618ac4`](https://github.com/139bercy/data-economie-policies-and-use/commit/f618ac4ad06078100aa53273e30b19bb73f3c9b2))
+
+### Fix
+
+* fix(src): correction errors ([`527c8f9`](https://github.com/139bercy/data-economie-policies-and-use/commit/527c8f9a213044f0eb5f7d264cd27743270b1c25))
+
+
 ## v0.3.1 (2024-07-30)
 
 ### Feature
