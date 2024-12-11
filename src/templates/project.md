@@ -1,7 +1,7 @@
 # Direction - Nom du projet
 
-_Ce document, émis par le Bercy Hub, constitue une aide au cadrage de projets Open Data. N’hésitez pas à le modifier et
-à l’adapter à votre contexte. Vous pouvez également nous contacter pour l’enrichir !_
+Ce document est une aide au cadrage des projets Open Data émise par le Bercy Hub. Adaptez-le à vos besoins et
+contactez-nous pour toute question ou suggestion !
 
 ## Révisions
 
@@ -9,137 +9,68 @@ _Ce document, émis par le Bercy Hub, constitue une aide au cadrage de projets O
 | ---------- | ---------- | ----------- |
 | 2024-01-01 | John Doe   | v0.0.1      |
 
-## Contexte
+## Contexte et objectifs
 
-_Décrire le contexte administratif spécifique au sein duquel le projet sera développé, les priorités stratégiques
-auxquelles il répond, la situation actuelle, les utilisateurs finaux et les prérequis du projet._
+### Contexte
 
-## Matrice des responsabilités
-
-- Responsable
-  - John Doe (organisation)
-- Autorité
-  - Jane Smith (organisation)
-- Consultés
-  - Richard Roe (organisation)
-  - Mary Johnson (organisation)
-- Informés
-  - James Miller (organisation)
-  - Emily Brown (organisation)
-  - David Clark (organisation)
-
-## Projet
-
-### Problème
-
-_Quelles sont les problématiques administratives ou opérationnelles que le projet data cherche à résoudre ? (Exemples :
-optimisation des processus, prise de décision basée sur les données, transparence publique)_
-
-### Public
-
-_Quels départements ou services sont concernés par ce problème ? À quels utilisateurs ce projet s’adresse-t-il ? Quels
-sont les personas identifiés ?_
-
-### Bénéfices attendus
-
-_Quelles sont les améliorations qui seront apportées par le projet s’il est mené à bien ? Gain de temps ? Partage
-d’informations? Réduction des coûts ? Meilleure prise de décision ?_
+_Décrivez brièvement la situation actuelle, les enjeux spécifiques et les priorités stratégiques du projet._
 
 Exemples :
 
-- Impact sur les citoyens et la société (meilleur accès à l’information, amélioration des services publics, prise de
-  décision transparente)
-- Valeur ajoutée pour l’administration (amélioration de l’efficacité, réduction des coûts, prise de décision éclairée)
+- Enjeu : Simplification administrative, transparence, valorisation de données métier.
+- Situation actuelle : Fragmentation des données, faible accessibilité, demande croissante des utilisateurs.
 
-## Objectifs
+### Objectifs
 
-### Objectifs data
+_Quels sont les principaux résultats attendus ?_
 
-_Quelles sont les finalités identifiées pour ce projet ? (Exemple : collecte de données, mise en place d’un système
-d’analyse, visualisation de données pour la prise de décisions) ?_
-
-### Métriques
-
-_Quelles sont les métriques ou KPI qui permettront de mesurer le succès du projet (exemple : réduction des délais,
-nombre de nouveaux insights, meilleure allocation des ressources) ?_
+- Impact concret sur les citoyens ou les services publics.
+- Améliorations internes : efficacité, réduction des coûts, prise de décision plus éclairée.
 
 ## Données
 
-### Sources de données
+### Sources
 
-_Quelles sont les sources de données exploitables (bases de données internes, données publiques, données tierces) ?_
+_Quelles données seront utilisées ? Précisez si elles sont internes, publiques ou issues d'organisations tierces._
 
-### Qualité des données
+### Qualité
 
-_Quel est le niveau de fiabilité, qualité, et accessibilité des données? Les fichiers d’entrée sont-ils dans un format
-ouvert et facilement exploitable ?_
+_Le format, la structure et la fiabilité des données sont-ils adaptés ?_
 
-### Cadre réglementaire
+### Conformité
 
-_L’exploitation des données respecte-t-elle le cadre du RGPD ?_
-
-## Solutions data
-
-### Technologies
-
-_Quelles technologies seront utilisées pour collecter, stocker et traiter les données ?_
-
-### Modèles d’analyse
-
-_L'exploitation des données nécessitera-t-elle l’intervention d’algorithmes ou de modèles d'IA ?_
-
-### Visualisation et rapport
-
-_Comment les résultats seront-ils communiqués et partagés aux utilisateurs ? Une page sur Data Economie ? Un ensemble de
-pages ? Un portail dédié ?_
+_Vérifiez la conformité réglementaire, notamment RGPD._
 
 ## Parties prenantes
 
+### Responsables et contributeurs
+
+_Qui pilote le projet ? Qui apporte une expertise spécifique ?_
+
 ### Utilisateurs finaux
 
-_Qui sont les principaux utilisateurs des résultats du projet (exemples : gestionnaires publics, décideurs, services
-opérationnels) ?_
+_Quels publics bénéficieront en priorité des résultats ?_
 
-### Partenaires clés
+## Solutions et livrables
 
-_Quelles sont les entités internes ou externes impliquées dans le projet (experts métier, services de sécurité
-informatique, etc.) ?_
+### Approche technique
 
-### Sponsors
+_Quels outils ou technologies seront mobilisés ?_
 
-_Qui finance ou soutient politiquement le projet ?_
+### Résultats attendus
 
-## Coûts et ressources
+_Décrivez brièvement le type de livrable attendu (visualisation, tableau de bord, publication sur Data Economie, etc.)._
 
-### Ressources clés
+## Moyens et calendrier
 
-_Quels sont les besoins en personnel, en matériel ? Quelles seront les compétences requises pour mener le projet à bien
-(développeur, data scientist, architecte système, designer) ?_
+### Ressources nécessaires
 
-### Budget
+_Besoins en personnel, compétences spécifiques, budget estimé._
 
-_Quels sont les coûts estimés du projet ? Essentiellement en nombre de jours, pour son cadrage et sa réalisation._
+### Échéancier
 
-### Ressources internes vs externes
+_Définissez les étapes clés et leur calendrier approximatif._
 
-_Parmi ces ressources, lesquelles seront internes à l’administration ? Lesquelles seront externalisées (consultants,
-prestataires) ?_
+## Questions et remarques
 
-## Durabilité et scalabilité
-
-### Durabilité
-
-_Comment garantir la persistance du projet dans le temps et son amélioration (exemple : documentation) ?_
-
-### Scalabilité
-
-_Comment prévoir les changements futurs, le changement potentiel de structure de la donnée ou les évolutions
-fonctionnelles du projet ?_
-
-______________________________________________________________________
-
-## Calendrier
-
-## Actions
-
-## Questions
+_Listez toutes les questions ou points à approfondir avec le Bercy Hub._
