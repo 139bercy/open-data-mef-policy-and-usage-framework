@@ -296,7 +296,8 @@ collecte, les traitements opérés, ainsi que les modalités de diffusion ou de 
 
 ### Métadonnées requises
 
-Les métadonnées à remplir en premier lieu sont les suivantes.
+Les métadonnées à remplir en premier lieu sont les suivantes. Sur la plateforme, elles sont étalées sur trois catégories
+qui sont autant d'onglets : _standard_, _admin_, _DCAT_.
 
 **Métadonnées descriptives**
 
