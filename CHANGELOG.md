@@ -2,9 +2,13 @@
 
 
 
-## v1.0.1 (2024-12-11)
+## v1.0.2 (2025-01-27)
 
 ### Feature
+
+* feat: add content on dataset secutity ([`9165d5a`](https://github.com/139bercy/data-economie-policies-and-use/commit/9165d5a4ab3da38e8364343ec3167c617314a902))
+
+* feat: export markdown doc to pdf ([`448cec4`](https://github.com/139bercy/data-economie-policies-and-use/commit/448cec4f627554372fd39e8f35e59a9d725e3c55))
 
 * feat: update content on metadata section ([`e3d1368`](https://github.com/139bercy/data-economie-policies-and-use/commit/e3d1368bd8b8b0a042f84299940adbe8235ce83f))
 
