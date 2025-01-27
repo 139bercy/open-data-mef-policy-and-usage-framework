@@ -22,8 +22,9 @@ Les fichiers sources de chaque branche sont consultables dans le dossier
 Les fichiers de travail sont au format [Markdown](https://docs.framasoft.org/fr/grav/markdown.html).
 
 Ce format de fichier ouvert, à la syntaxe simple, permet d'effectuer l'essentiel des actions de traitement de texte tout
-en restant léger et compatible avec les systèmes de contrôle de version, ce qui en fait un outil tout à fait compatible
-avec les exigences d'un travail collaboratif.
+en restant léger et compatible avec les systèmes de contrôle de version.
+
+Le travail collaboratif en est rendu d'autant plus aisé.
 
 En outre, sa portabilité permet un export simple vers des formats `HTML`, `PDF` ou `DOCX` ainsi qu'une intégration
 facilitée vers des outils en ligne de gestion documentaire ou un site Web dédié.
