@@ -373,6 +373,9 @@ conséquent responsables de leur ouverture, qui nécessite une action consciente
 
 > *dataset* -> Sécurité -> Sécurité par défaut -> Accès limité aux utilisateurs et groupes autorisés
 
+De manière à assurer la continuité d'activité d'un jeu de donnée et sa pérénité dans le temps, n'hésitez pas à donner
+dans l'onglet `Sécurité` les droits d'accès à votre groupe de rattachement.
+
 Tout jeu de données ouvert est ensuite moissonné par les plateformes data.gouv.fr et peut potentiellement entrer dans la
 chaîne de dépendance de systèmes d'information tiers.
 
