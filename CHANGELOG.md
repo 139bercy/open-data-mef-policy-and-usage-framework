@@ -2,6 +2,23 @@
 
 
 
+## v1.0.3 (2025-03-12)
+
+### Documentation
+
+* docs: update readme ([`f0fdb86`](https://github.com/139bercy/data-economie-policies-and-use/commit/f0fdb869efb42741a59dc3f0797a1ba6146e2f1f))
+
+### Feature
+
+* feat: update content on required metadata ([`23214d4`](https://github.com/139bercy/data-economie-policies-and-use/commit/23214d4949e12234db14bb8ea4910c57ba9de498))
+
+* feat: add content on xlsx conversion to csv ([`8331c7d`](https://github.com/139bercy/data-economie-policies-and-use/commit/8331c7d71b6a2446f58b1490e26b57704c4cd3bf))
+
+* feat: add content on value standardization ([`b4f30c5`](https://github.com/139bercy/data-economie-policies-and-use/commit/b4f30c5e2931f60fb2319040701cd986d61e585f))
+
+* feat: add content on csv delimiters ([`c6170a6`](https://github.com/139bercy/data-economie-policies-and-use/commit/c6170a65877e6671c9eacdd1c131675ad2fa4f3b))
+
+
 ## v1.0.2 (2025-01-27)
 
 ### Feature
