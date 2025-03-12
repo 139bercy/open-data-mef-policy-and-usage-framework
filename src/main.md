@@ -319,12 +319,13 @@ qui sont autant d'onglets : _standard_, _admin_, _DCAT_.
 
 **Métadonnées descriptives**
 
-- **le titre** : permet aux utilisateurs de comprendre le contenu du jeu de données,
-- **la description** : brève description du contenu et de l’objectif du jeu de données,
-- **le producteur** : indique la direction responsable de la production du jeu de données (voir note *Point de contact*
+- **le titre** : concis, il permet aux utilisateurs de comprendre le contenu du jeu de données (5 à 10 mots),
+- **la description** : brève description du contenu et de l’objectif du jeu de données (300 à 500 caractères),
+- **le producteur** : indique la direction responsable de la production du jeu de données (cf. note *Point de contact*
   ci-dessous),
-- **contact** : coordonnées du responsable des données.
-- **les mots-clés** : voir encadré ci-dessous
+- **contact** : coordonnées du responsable des données ou l'adresse email fonctionnelle du bureau responsable,
+- **les mots-clés** : 3 à 7 termes, (cf. encadré ci-dessous)
+- **Thème** (recommandé) : catégories thématiques selon la taxonomie du portail
 
 **Métadonnées d'administation**
 
