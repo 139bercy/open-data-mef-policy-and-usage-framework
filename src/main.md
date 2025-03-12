@@ -497,3 +497,22 @@ ______________________________________________________________________
 - [Lab Archipel - DATAcculturation](https://youtu.be/_yxlo41dBuA?si=DVxW9M5MsiBNJ8iS) (Vidéo)
 - [Open Data France](https://opendatafrance.fr/les-ressources/)
 - [Datactivist - Blog](https://open.datactivist.coop/docs)
+
+______________________________________________________________________
+
+## Annexe
+
+### Conversion d'un fichier Excel en CSV
+
+**Préparation du fichier**
+
+- Supprimer les cellules fusionnées, incompatibles avec le format CSV
+- Éliminer les formules complexes pour ne conserver que les valeurs calculées
+- Vérifier que les en-têtes de colonnes ne sont présents que sur la première ligne
+- Supprimer les feuilles multiples et consolider les données sur une seule feuille
+
+**Conversion du fichier**
+
+- Dans Excel, "Enregistrer sous" et sélectionner "CSV (séparateur: point-virgule)"
+- Vérifier l'encodage UTF-8 lors de l'enregistrement
+- Contrôler que le séparateur choisi (virgule ou point-virgule) ne crée pas d'erreurs de restitution.
