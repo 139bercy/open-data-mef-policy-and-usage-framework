@@ -150,19 +150,32 @@ accessibilité, sa lisibilité et sa réutilisation.
 
 Principes généraux :
 
-- **Encodage** : Les fichiers doivent être encodés au format `utf-8`,
+- **Encodage** : Les fichiers doivent être encodés au format Unicode `utf-8`,
 - **Formats standardisés** : Nous privilégierons les formats standardisés et ouverts tels que `CSV`, `JSON`, `XML`,
   `TXT`,
 - **Formats ouverts** : Nous chercherons à éviter :
   - les formats propriétaires (`docx`, `xlsx`),
-  - le format PDF,
+  - le format `.pdf`, qui est difficilement exploitable programmatiquement,
   - les formats compressés (`zip`, `tar.gz`).
+
+### Séparateurs
+
+Le format CSV (_Comma separated values_, soit valeurs séparées par des virgules) reste le format ouvert plébiscité pour
+l'affichage de données tabulaires.
+
+Cependant, l'utilisation de la virgule comme séparateur pose de multiples problèmes d'interprétation, notamment parce
+qu'elle est utilisée en Europe comme séparateur pour les décimales là où le point est utilisé outre-Atlantique.
+
+Afin d'éviter les décalages de colonnes ou la séparation intempestive de valeurs, il reste donc préférable d'utiliser le
+point virgule ou le pipe `|` (AltGr + 6).
 
 ### Normalisation des valeurs
 
-- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`,
+- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`, (ex : `2025-01-01 12:00:00.123`)
+- Les champs ne doivent pas abriter de formules et s'en tenir à des types simples (entiers, texte, date, flottant,
+  etc.),
 - les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
-  identiques, etc.).
+  identiques, etc.),
 
 ### Taille des jeux de données
 
@@ -174,7 +187,8 @@ opérations peuvent être faites par Opendatasoft au cas par cas, après demande
 [Source](https://userguide.opendatasoft.com/l/en/article/dbukdhmk5a-dataset-limits)
 
 De manière générale, il n'est pas recommandé de mettre en production des fichiers ayant un nombre trop important de
-colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement.
+colonnes, notamment pour des raisons de lisibilité, de maintenance et de traitement. La plateforme indiquera une erreur
+au-delà du seuil prescrit.
 
 ## Structure des jeux de données
 
@@ -464,13 +478,15 @@ ______________________________________________________________________
 
 ### Documentation technique
 
-- [Publier un jeu de données](https://userguide.opendatasoft.com/l/fr/category/jrnwp63j97-publier-vos-jeux-de-donnees)
+- Publier un jeu de données :
+  - https://userguide.opendatasoft.com/l/fr/category/jrnwp63j97-publier-vos-jeux-de-donnees
+- Remplir les métadonnées :
+  - https://userguide.opendatasoft.com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees
 
 ### Métadonnées
 
 - [DCAT](https://doc.data.gouv.fr/moissonnage/dcat/)
 - [Datasheets for datasets](https://open.datactivist.coop/docs/datasheets-datasets)
-- [Remplir les métadonnées](https://userguide.opendatasoft.com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees)
 
 ### Acculturation à la donnée
 
