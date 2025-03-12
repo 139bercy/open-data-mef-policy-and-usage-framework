@@ -171,11 +171,15 @@ point virgule ou le pipe `|` (AltGr + 6).
 
 ### Normalisation des valeurs
 
-- les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`, (ex : `2025-01-01 12:00:00.123`)
+- Les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
+  identiques, etc.),
+- Les champs `date` doivent suivre le standard ISO 8601 : `AAAA-MM-JJ HH:MM:SS.CCC`, (ex : `2025-01-01 12:00:00.123`)
 - Les champs ne doivent pas abriter de formules et s'en tenir à des types simples (entiers, texte, date, flottant,
   etc.),
-- les noms des champs doivent respecter des conventions de nommage cohérentes (pas de majuscules, séparateurs
-  identiques, etc.),
+- Les séparateurs de milliers doivent être évités,
+- La cohérence des unités de mesure doit être assurée et documentée dans le champ lui-même ou en description.
+- Les cellules vides doivent être autant que possible remplacées par une valeur standardisée (`NA`, `NC`, `NULL`), qui
+  doit également être documentée.
 
 ### Taille des jeux de données
 
@@ -485,8 +489,8 @@ ______________________________________________________________________
 
 ### Métadonnées
 
-- [DCAT](https://doc.data.gouv.fr/moissonnage/dcat/)
-- [Datasheets for datasets](https://open.datactivist.coop/docs/datasheets-datasets)
+- DCAT : https://doc.data.gouv.fr/moissonnage/dcat/
+- Datasheets for datasets : https://open.datactivist.coop/docs/datasheets-datasets
 
 ### Acculturation à la donnée
 
