@@ -166,8 +166,8 @@ au-delà du seuil prescrit.
 
 ### Gestion des discussions
 
-Les plateformes \[**data.gouv.fr**\] et \[**data.economie.gouv.fr**\] présentent toutes deux des fonctionnalités de
-gestion des discussions
+Les plateformes **data.gouv.fr** et **data.economie.gouv.fr** présentent toutes deux des fonctionnalités de gestion des
+discussions
 
 ## Structure des jeux de données
 
@@ -192,8 +192,8 @@ Principes généraux :
 ### Identifiants et noms des jeux de données
 
 Par *identifiant*, nous entendons *identifiant technique*, soit non seulement l'identifiant unique d'un jeu de données
-sur la plateforme **data.economie.gouv.fr**, mais également sur les plateformes qui réutilisent nos jeux de données par
-voie de moissonnage, comme **data.gouv.fr**.
+sur **data.economie.gouv.fr**, mais également sur les plateformes qui réutilisent nos jeux de données par voie de
+moissonnage, comme **data.gouv.fr**.
 
 - il doit être défini avant la publication,
 - il ne doit pas contenir de notions techniques propres à la plateforme (ex : `copie`, `< nom du jeu de données >0`)
@@ -219,6 +219,12 @@ Quelques considérations :
 
 - Identifiant technique : `test-interne-prix-des-carburants-v2`
 - Nom du jeu de données : `[Test][Interne] Prix des carburants v2`
+
+Si le jeu de données appartient à un même ensemble, il convient de donner à tous les jeux de données le même préfixe, en
+restant le plus explicite possible. Exemple :
+
+- `plf-2025-autorisations-de-decouverts-des-comptes-speciaux-non-dotes`
+- `plf25-depenses-2025-des-comptes-speciaux-non-dotes`
 
 ### Versionnement des jeux de données
 
