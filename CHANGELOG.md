@@ -2,6 +2,23 @@
 
 
 
+## v1.0.4 (2025-03-24)
+
+### Chore
+
+* chore: add odt template and update pdf latex template ([`be777fc`](https://github.com/139bercy/data-economie-policies-and-use/commit/be777fc4fc20581f34c268f7263c33a95380d25f))
+
+### Feature
+
+* feat: add content on main document ([`6b19be2`](https://github.com/139bercy/data-economie-policies-and-use/commit/6b19be2c78b6ad3217c4456122a33b0c2159fef2))
+
+* feat: update toc depth to headings 2 ([`a1f4f76`](https://github.com/139bercy/data-economie-policies-and-use/commit/a1f4f767035414f9719d9a3a6446655415b182ae))
+
+### Style
+
+* style: remove hyperlinks ([`80a27a9`](https://github.com/139bercy/data-economie-policies-and-use/commit/80a27a9f7f505586a1888c9ae27caccd25350c4b))
+
+
 ## v1.0.3 (2025-03-12)
 
 ### Documentation
@@ -26,6 +43,11 @@
 * feat: add content on dataset secutity ([`9165d5a`](https://github.com/139bercy/data-economie-policies-and-use/commit/9165d5a4ab3da38e8364343ec3167c617314a902))
 
 * feat: export markdown doc to pdf ([`448cec4`](https://github.com/139bercy/data-economie-policies-and-use/commit/448cec4f627554372fd39e8f35e59a9d725e3c55))
+
+
+## v1.0.1 (2025-03-18)
+
+### Feature
 
 * feat: update content on metadata section ([`e3d1368`](https://github.com/139bercy/data-economie-policies-and-use/commit/e3d1368bd8b8b0a042f84299940adbe8235ce83f))
 
