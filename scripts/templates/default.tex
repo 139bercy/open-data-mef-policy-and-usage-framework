@@ -1,6 +1,6 @@
-\documentclass[a4paper]{report}
+\documentclass[a5paper]{report}
 
-\usepackage[fontsize=11pt]{scrextend}
+\usepackage[fontsize=9pt]{scrextend}
 \usepackage{tocloft}
 \usepackage{fontspec}
 \usepackage{hyperref}
@@ -12,17 +12,15 @@
 \usepackage{xcolor}
 \usepackage{setspace}
 \usepackage{etoolbox}
+\usepackage{titling}
+
 
 \hypersetup{hidelinks}
 
 \AtBeginEnvironment{quote}{\singlespace\vspace{-\topsep}\fontsize{9pt}{11pt}\selectfont}
 \AtEndEnvironment{quote}{\vspace{-\topsep}\endsinglespace}
 
-\geometry{
-  total={170mm,257mm},
-  left=20mm,
-  top=20mm,
-}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
 
 \newcommand{\mybox}[1]{\parbox{\linewidth}{\centering #1}}
 
@@ -35,9 +33,9 @@
 \renewcommand\contentsname{\LARGE Sommaire}
 
 \titleformat{\section}
-  {\normalfont\huge\bfseries\color{text-title-grey}}{}{1em}{\mybox}
+  {\normalfont\huge\bfseries\scshape\color{text-title-grey}}{}{3em}{\mybox}
 \titleformat{\subsection}
-  {\normalfont\Large\bfseries\color{blue-france-sun-113}}{\Roman{subsection}}{1em}{}
+  {\newpage\normalfont\Large\bfseries\color{blue-france-sun-113}}{\Roman{subsection}}{1em}{}
 \titleformat{\subsubsection}
   {\normalfont\large\bfseries\color{text-title-grey}}{\alph{subsubsection})}{0.5em}{}
 
@@ -64,7 +62,7 @@
 \renewcommand{\thesubsubsection}{\alph{subsubsection}}
 
 \setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
@@ -82,11 +80,24 @@
 
 \begin{document}
 
-  \section{$TITLE$}\label{sec:$title$}
+  \begin{titlepage}
+    \begin{center}
+      \scshape{SG/SNUM/Bercy Hub}
+    \end{center}
 
-  \begin{center}
-    \textbf{$VERSION$}\label{subsec:$version$}
-  \end{center}
+    \vspace*{\fill}
+    \begin{center}
+    {\huge\scshape $TITLE$}\label{sec:$title$}
+
+    \vspace{1cm}
+
+    {\large\bfseries $VERSION$}\label{subsec:$version$}
+    \end{center}
+    \vspace*{\fill}
+  \end{titlepage}
+
+  \newpage
+  \newpage
 
   \begingroup
     \hypersetup{hidelinks}

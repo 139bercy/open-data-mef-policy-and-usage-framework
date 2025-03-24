@@ -2,11 +2,16 @@
 
 FILE=$1
 BRANCH="$(git symbolic-ref --short -q HEAD)"
-VERSION=$(git tag --sort=taggerdate | tail -1)
+VERSION=$(git tag | tail -1)
 FILENAME="data-economie-politique-d-usage-${VERSION}-${BRANCH}"
 TITLE=$(head -n 1 $FILE | sed 's/^# //' )
 
 sed '1,/^\s*## Introduction\s*$/ { /^\s*## Introduction\s*$/!d; }' $FILE > temp.md
+
+echo Export content to "$FILENAME.odt"
+
+pandoc "$FILE" --reference-doc=scripts/templates/default.ott -o "build/$FILENAME".odt \
+  --metadata version="$VERSION"
 
 echo Export content to "$FILENAME.docx"
 
