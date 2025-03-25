@@ -230,7 +230,9 @@ restant le plus explicite possible. Exemple :
 
 De manière à assurer la traçabilité et la cohérence des jeux de données, un numéro de version doit être associé à chaque
 jeu de données publié sur la plateforme. À cette fin, nous préconisons, en matière de gestion sémantique de version,
-l'emploi du standard [SemVer 2.0.0](https://semver.org/lang/fr/) : `<majeure>.<mineure>.<patch>`.
+l'emploi du standard [SemVer 2.0.0](https://semver.org/lang/fr/) :
+
+- `<majeure>.<mineure>.<patch>`.
 
 Les producteurs sont tenus de documenter clairement, soit dans un fichier texte en pièce jointe type `CHANGELOG`, soit
 en description, les modifications apportées à chaque version des jeux de données, y compris les mises à jour, les
@@ -460,19 +462,30 @@ ______________________________________________________________________
 
 ### Documentation technique
 
-- Publier un jeu de données :
-  - https://userguide.opendatasoft.com/l/fr/category/jrnwp63j97-publier-vos-jeux-de-donnees
-- Remplir les métadonnées :
-  - https://userguide.opendatasoft.com/l/fr/category/is2wkknb71-metadonnes-des-ensembles-de-donnees
+**Publier un jeu de données** : https://userguide.opendatasoft.com/fr/articles/2248514
+
+\\centering ![](./src/media/faq-publish-dataset.png){width=50px} \\raggedright \\flushleft
+
+**Remplir les métadonnées** : https://userguide.opendatasoft.com/fr/articles/2031938
+
+\\centering ![](./src/media/faq-fill-metadata.png){width=50px} \\raggedright \\flushleft
 
 ### Métadonnées
 
-- DCAT : https://doc.**data.gouv.fr**/moissonnage/dcat/
-- Datasheets for datasets : https://open.datactivist.coop/docs/datasheets-datasets
+**DCAT** : https://doc.data.gouv.fr/moissonnage/dcat/
+
+\\centering ![](./src/media/faq-dcat.png){width=50px} \\raggedright \\flushleft
+
+**Datasheets for datasets** : https://open.datactivist.coop/docs/datasheets-datasets
+
+\\centering ![](./src/media/faq-datasheets-for-datasets.png){width=50px} \\raggedright \\flushleft
 
 ### Acculturation à la donnée
 
-- [Lab Archipel - DATAcculturation](https://youtu.be/_yxlo41dBuA?si=DVxW9M5MsiBNJ8iS) (Vidéo)
+Lab Archipel - DATAcculturation : https://www.youtube.com/watch?v=_yxlo41dBuA
+
+\\centering ![](./src/media/faq-lab-archipel-dataculturation.png){width=50px} \\raggedright \\flushleft
+
 - [Open Data France](https://opendatafrance.fr/les-ressources/) : https://opendatafrance.fr/les-ressources/
 - [Datactivist - Blog](https://open.datactivist.coop/docs) : https://open.datactivist.coop/docs
 

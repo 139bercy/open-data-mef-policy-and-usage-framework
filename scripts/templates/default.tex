@@ -1,4 +1,4 @@
-\documentclass[a5paper]{report}
+\documentclass[a5paper]{article}
 
 \usepackage[fontsize=9pt]{scrextend}
 \usepackage{tocloft}
@@ -13,7 +13,19 @@
 \usepackage{setspace}
 \usepackage{etoolbox}
 \usepackage{titling}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{caption}
 
+\newcommand{\pandocbounded}[1]{#1}
+
+\captionsetup[figure]{
+  name=,
+  labelsep=none,
+  labelformat=empty}
+
+\graphicspath{{./src/media/}}
 
 \hypersetup{hidelinks}
 
@@ -72,7 +84,6 @@
 \setlist[itemize]{label=\textbullet, itemsep=0pt, topsep=0pt}
 \setlist[enumerate]{label=\alph*., itemsep=0pt, topsep=0pt}
 
-\XeTeXdefaultencoding utf-8
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont{Marianne}
 

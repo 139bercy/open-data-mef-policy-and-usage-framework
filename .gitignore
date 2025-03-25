@@ -186,4 +186,5 @@ pyrightconfig.json
 build/*.docx
 build/*.odt
 build/*.pdf
+build/*.tex
 dev
