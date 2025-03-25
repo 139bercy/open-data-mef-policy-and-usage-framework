@@ -21,6 +21,7 @@ toc:
 
 format:
 	mdformat src
+	./scripts/fix-backslashes.sh src/main.md
 
 release:
 	./scripts/release.sh src/main.md

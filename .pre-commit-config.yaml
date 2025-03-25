@@ -13,6 +13,15 @@ repos:
         additional_dependencies:
           - mdformat-gfm
           - mdformat-black
+  - repo: local
+    hooks:
+      - id: fix-backslashes
+        stages: [commit]
+        name: Fix double backslashes
+        entry: ./scripts/fix-backslashes.sh
+        language: script
+        files: \.(md|tex)$
+        verbose: true
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v3.25.0
     hooks:

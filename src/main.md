@@ -464,30 +464,33 @@ ______________________________________________________________________
 
 **Publier un jeu de données** : https://userguide.opendatasoft.com/fr/articles/2248514
 
-\\centering ![](./src/media/faq-publish-dataset.png){width=50px} \\raggedright \\flushleft
+\centering ![](./src/media/faq-publish-dataset.png){width=50px} \raggedright \flushleft
 
 **Remplir les métadonnées** : https://userguide.opendatasoft.com/fr/articles/2031938
 
-\\centering ![](./src/media/faq-fill-metadata.png){width=50px} \\raggedright \\flushleft
+\centering ![](./src/media/faq-fill-metadata.png){width=50px} \raggedright \flushleft
 
 ### Métadonnées
 
 **DCAT** : https://doc.data.gouv.fr/moissonnage/dcat/
 
-\\centering ![](./src/media/faq-dcat.png){width=50px} \\raggedright \\flushleft
+\centering ![](./src/media/faq-dcat.png){width=50px} \raggedright \flushleft
 
 **Datasheets for datasets** : https://open.datactivist.coop/docs/datasheets-datasets
 
-\\centering ![](./src/media/faq-datasheets-for-datasets.png){width=50px} \\raggedright \\flushleft
+\centering ![](./src/media/faq-datasheets-for-datasets.png){width=50px} \raggedright \flushleft
 
 ### Acculturation à la donnée
 
 Lab Archipel - DATAcculturation : https://www.youtube.com/watch?v=_yxlo41dBuA
 
-\\centering ![](./src/media/faq-lab-archipel-dataculturation.png){width=50px} \\raggedright \\flushleft
+\centering ![](./src/media/faq-lab-archipel-dataculturation.png){width=50px} \raggedright \flushleft
 
-- [Open Data France](https://opendatafrance.fr/les-ressources/) : https://opendatafrance.fr/les-ressources/
-- [Datactivist - Blog](https://open.datactivist.coop/docs) : https://open.datactivist.coop/docs
+Open Data France : https://opendatafrance.fr/les-ressources/
+
+\centering ![](./src/media/faq-opendatafrance-resources.png){width=50px} \raggedright \flushleft
+
+[Datactivist - Blog](https://open.datactivist.coop/docs) : https://open.datactivist.coop/docs
 
 ______________________________________________________________________
 
@@ -506,4 +509,6 @@ ______________________________________________________________________
 
 - Dans Excel, "Enregistrer sous" et sélectionner "CSV (séparateur: point-virgule)"
 - Vérifier l'encodage UTF-8 lors de l'enregistrement
-- Contrôler que le séparateur choisi (virgule ou point-virgule) ne crée pas d'erreurs de restitution.
+- Contrôler que le séparateur choisi (virgule ou point-virgule) ne crée pas d'erreurs de restitution. \
+
+\_

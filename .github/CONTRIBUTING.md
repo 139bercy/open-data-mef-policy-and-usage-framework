@@ -72,4 +72,4 @@ de traitement, pré-commits, etc, ne rentrent pas dans ce cadre.
 
 2. Installez les dépendances :
 
-   \[commande_pour_installer_les_dépendances\]
+[commande_pour_installer_les_dépendances]
