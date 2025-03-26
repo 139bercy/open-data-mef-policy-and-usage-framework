@@ -15,8 +15,6 @@ do
     fix_backslashes "$file"
 done
 
-git status
-
 git diff --name-only --diff-filter=M | xargs git add
 
 exit 0
