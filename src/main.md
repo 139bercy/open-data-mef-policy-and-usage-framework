@@ -58,7 +58,11 @@ données, comprenant le plus souvent l'Open Data. Suivant leur structure, l'Open
 dédiée.
 
 N'hésitez pas à mobiliser ces acteurs pour le cadrage, la réalisation ou le suivi de vos projets data lorsque vous
-contactez nos équipes. Un annuaire directionnel des référents Open Data sera prochainement mis à votre disposition.
+contactez nos équipes.
+
+Un annuaire directionnel des référents Open Data est mis à votre disposition en accès restreint sur la plateforme.
+
+- `interne-restreint-correspondants-open-data-mef`
 
 ### Articulation entre **data.economie.gouv.fr** et **data.gouv.fr**
 
@@ -509,6 +513,4 @@ ______________________________________________________________________
 
 - Dans Excel, "Enregistrer sous" et sélectionner "CSV (séparateur: point-virgule)"
 - Vérifier l'encodage UTF-8 lors de l'enregistrement
-- Contrôler que le séparateur choisi (virgule ou point-virgule) ne crée pas d'erreurs de restitution. \
-
-\_
+- Contrôler que le séparateur choisi (virgule ou point-virgule) ne crée pas d'erreurs de restitution.
